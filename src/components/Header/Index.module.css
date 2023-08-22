@@ -1,0 +1,46 @@
+.mainContainer{
+    background-color:black;
+    display: flex;
+    height: auto;
+    padding: 1%;
+    width: 100%;
+    align-items: center;
+}
+.logoContainer{
+    width: 25%;
+    text-align: center;
+}
+.navbarMainContainer{
+    color: white;
+    width: 50%;
+    display: flex;
+}
+.image{
+    width: 80%;
+}
+.navbarMainContainer ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.navbarMainContainer ul li{
+    font-weight: 500;
+    font-size: large;
+    cursor: pointer;
+}
+.getAQuote{
+    width: 15%;
+    margin: auto;
+    justify-content: center;
+}
+.getAQuote button{
+    padding: 8%;
+    width: 90%;
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
