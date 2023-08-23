@@ -1,4 +1,16 @@
-body ,p,h1,h2,h3,h4,input,span,textarea{
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+input,
+span,
+textarea {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;

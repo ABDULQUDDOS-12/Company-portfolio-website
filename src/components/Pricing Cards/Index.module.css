@@ -1,0 +1,15 @@
+.cardsContainer{
+    width: 90%;
+}
+.firstCard{
+    width: 33.333%;
+    background-color: aqua;
+    height: 700px;
+    margin: auto;
+}
+.firstImageContainer{
+    width: 100%;
+}
+.firstImage{
+    width: 100%;
+}

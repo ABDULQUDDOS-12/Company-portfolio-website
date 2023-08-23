@@ -1,0 +1,40 @@
+.mainContainer{
+    margin-top: 8%;
+}
+.mainHeading{
+    font-size: x-large;
+    text-align: center;
+}
+.mainHeading h1{
+    color: #141232;
+}
+.mainHeading span{
+    color: #E92747;
+}
+.mainTextContainer{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.mainTextContainer p{
+    color: #141232;
+    line-height: 2;
+}
+.buttonsContainer{
+   display: flex;
+   flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+.buttonsContainer button{
+    width: 20%;
+    padding: 2%;
+    font-size: large;
+    border-radius: 25px;
+    margin: 2%;
+    background:transparent;
+    border: 1px solid #E92747;
+    color: #E92747;
+    box-shadow: 0px 0px 18px -10px #000;
+    cursor: pointer;
+}
