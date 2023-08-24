@@ -1,0 +1,54 @@
+.mainContainer{
+    margin-top: 8%;
+}
+.mainHeading{
+    font-size: x-large;
+    width: 90%;
+    margin: auto;
+}
+.mainHeading h1{
+    color: #141232;
+}
+.mainHeading span{
+    color: #E92747;
+}
+.mainHeadingText p{
+    width: 90%;
+    margin: auto;
+    margin-top: 3%;
+}
+.mainCardContainer{
+    height: 150px;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+.mainCardContainer p{
+    align-items: center;
+}
+.phoneIcon{
+    font-size: 20px;
+}
+.phoneDetails{
+    display: flex;
+    align-items: center;
+}
+.phoneDetails p{
+    margin-left: 1%;
+    font-weight: 600;
+}
+.content{
+    padding: 10%;
+    width: 100%;
+}
+.quoteContainer{
+    width: 100%;
+    padding-top: 10%;
+    padding-right: 5%;
+    text-align: right;
+}
+.quoteContainer p{
+    padding-right: 5%;
+}

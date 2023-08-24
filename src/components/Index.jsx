@@ -6,6 +6,8 @@ import PortfolioSection from './Portfolio/Index'
 import SectionContainer from './Section Container/Index'
 import WebPackages from './Web Packages/Index'
 import PricingCards from './Pricing Cards/Index'
+import PowerCompany from './powerCompany/Index'
+import ContactDetails from './Contact Details/Index'
 const Index = () => {
     return (
         <div>
@@ -16,6 +18,8 @@ const Index = () => {
             <SectionContainer/>
             <WebPackages/>
             <PricingCards/>
+            <PowerCompany/>
+            <ContactDetails/>
         </div>
     )
 }

@@ -1,0 +1,81 @@
+.mainHeading{
+    font-size: x-large;
+    text-align: center;  
+}
+.mainHeading h1{
+    color: #141232;
+}
+.mainHeading span{
+    color: #E92747;
+}
+.mainTextContainer{
+    width: 90%;
+    margin: auto;
+}
+.mainTextContainer p{
+    text-align: center;
+}
+.allImagesContainers{
+    width: 90%;
+    flex-wrap: wrap;
+    margin: auto;
+    display: flex;
+}
+.firstimageContainer{
+    width: 30%;
+    margin-top: 10%;
+}
+.firstimageContainer h1{
+    text-align: center;
+}
+.firstImage{
+    width: 100%;
+    box-shadow: 0px 0px 24px -10px;
+}
+.secondimageContainer{
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.secondimageContainer h1{
+    text-align: center;
+}
+.secondImage{
+    width: 100%;
+    box-shadow: 0px 0px 24px -10px;
+}
+.thirdimageContainer{
+    width: 30%;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+.thirdImage{
+    width: 100%;
+    box-shadow: 0px 0px 24px -10px;
+}
+.thirdimageContainer h1{
+    text-align: center;
+}
+.forthImageContainer{
+    margin-top: 5%;
+    width: 30%;
+}
+.forthImage{
+    width: 100%;
+    box-shadow: 0px 0px 24px -10px;
+}
+.forthImageContainer h1{
+    text-align: center;
+}
+.fifthImageContainer{
+    margin-top: 2%;
+    width: 60%;
+    margin-left: 5%;
+}
+.fifthImage{
+    width: 100%;
+    box-shadow: 0px 0px 24px -10px;
+}
+.fifthImageContainer h1{
+    text-align: center;
+}
