@@ -8,6 +8,10 @@ import WebPackages from './Web Packages/Index'
 import PricingCards from './Pricing Cards/Index'
 import PowerCompany from './powerCompany/Index'
 import ContactDetails from './Contact Details/Index'
+import Branding from './Branding/Index'
+import HelpSection from './Help Section/Index'
+import ContactUs from './Contact Us/Index'
+import Footer from './Footer/Index'
 const Index = () => {
     return (
         <div>
@@ -20,6 +24,10 @@ const Index = () => {
             <PricingCards/>
             <PowerCompany/>
             <ContactDetails/>
+            <Branding/>
+            <HelpSection/>
+            <ContactUs/>
+            <Footer/>
         </div>
     )
 }

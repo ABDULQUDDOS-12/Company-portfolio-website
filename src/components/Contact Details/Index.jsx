@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Index.module.css'
 import { FaPhoneAlt } from "react-icons/fa"
+import { BsFillChatLeftDotsFill } from 'react-icons/bs'
 const Index = () => {
   return (
     <div className={styles.mainContainer}>
@@ -17,13 +18,13 @@ const Index = () => {
             <FaPhoneAlt className={styles.phoneIcon} />
             <p>760-688-4491</p>
           </div>
-          
+
         </div>
         <div className={styles.quoteContainer}>
-              <p>Get a Quote</p>
-              <div className={styles.phoneDetails}>
+          <p>Get a Quote</p>
+          <div className={styles.phoneDetails}>
             <p>Live Chat With Us</p>
-            <FaPhoneAlt className={styles.phoneIcon} />
+            <BsFillChatLeftDotsFill className={styles.phoneIcon} />
           </div>
         </div>
       </div>
