@@ -14,6 +14,9 @@ const Index = () => {
                     <p>We build website and create unlimited pathways for the brand to capture leads and enjoy unexpected conversions.</p>
                 </div>
             </div>
+            <div className={styles.copyright}>
+                <p>© Custom Website Agency. ALL RIGHTS RESERVED. | A Krazy Design Labs Company</p>
+            </div>
         </div>
     )
 }

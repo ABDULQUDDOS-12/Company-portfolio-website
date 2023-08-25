@@ -2,10 +2,12 @@
     margin-top: 5%;
     background-color: #141232;
     padding: 5%;
-    display: flex;
+    padding-bottom: 2%;
 }
 .leftContainer{
     width: 20%;
+    margin: auto;
+    text-align: center;
 }
 .logoImage{
     width: 100%;
@@ -13,4 +15,10 @@
 .textContainer{
     margin-top: 5%;
     color: white;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    margin-top: 4%;
+   color: white;
 }
