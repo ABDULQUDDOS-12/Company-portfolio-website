@@ -55,3 +55,35 @@
     background: transparent;
     justify-content: space-between;
 }
+/* responsiveness */
+@media (min-width: 1008px) and (max-width: 1300px){
+   .imageTextContaier{
+    width: 30%;
+   }
+}
+@media (min-width: 641px) and (max-width: 1007px){
+    .chatImageContainer{
+        width: 30%;
+    }
+    .chatImageContainer img{
+        width: 100%;
+    }
+    .imageTextContaier p{
+        font-size: small;
+    }
+    .imageTextContaier h2,.imageTextContaier h1{
+       font-size: x-large;
+    }
+    .buttonContainer{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .buttonContainer button,.buttonContainer button:nth-child(2){
+        width: 100%;
+        margin-left: 0%;
+    }
+    .buttonContainer button:nth-child(2){
+       margin-top: 15%;
+    }
+}

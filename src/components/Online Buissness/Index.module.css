@@ -67,3 +67,37 @@
     width: 90%;
     margin-left: 3%;
 }
+
+
+/* Responsiveness  */
+@media (min-width: 1008px) and (max-width: 1300px){
+    .mainContainer{
+        height:1100px;
+    }
+
+}
+@media (min-width: 641px) and (max-width: 1007px){
+    .mainHeading{
+     font-size: large;
+    }
+    .textContainer{
+        font-size: small;
+    }
+    .leftHandContainer{
+        width: 50%;
+    }
+    .buttonContainer{
+        flex-direction: row;
+    }
+    .buttonContainer button:nth-child(1){
+        margin-bottom: 0%;
+        margin-top: 5%;
+        margin-right: 5%;
+    }
+    .buttonContainer button{
+        margin-top: 5%;
+    }
+    .mainContainer{
+        height: 820px;
+    }
+}

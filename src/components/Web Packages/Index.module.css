@@ -38,3 +38,21 @@
     box-shadow: 0px 0px 18px -10px #000;
     cursor: pointer;
 }
+/* Responsiveness */
+@media (min-width: 1008px) and (max-width: 1300px){
+
+}
+@media (min-width: 641px) and (max-width: 1007px){
+    .mainHeading{
+        font-size: large;
+    }
+    .mainTextContainer p{
+        font-size: small;
+    }
+    .buttonsContainer{
+        width: 70%;
+    }
+    .buttonsContainer button{
+        font-size: small;
+    }
+}

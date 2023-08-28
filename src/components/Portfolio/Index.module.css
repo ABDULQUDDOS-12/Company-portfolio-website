@@ -43,13 +43,16 @@
     /* Ensure the image takes the full width of its container */
     transition: transform 2s;
 }
+
 .thirdhoverZoomImage,
-.forthhoverZoomImage,.fifthhoverZoomImage {
+.forthhoverZoomImage,
+.fifthhoverZoomImage {
     width: 100%;
     height: 2000px;
     /* Ensure the image takes the full width of its container */
     transition: transform 2s;
 }
+
 .sixthhoverZoomImage {
     width: 100%;
     height: 1500px;
@@ -58,12 +61,77 @@
 }
 
 .hoverZoomImage:hover,
-.secondhoverZoomImage:hover,.thirdhoverZoomImage:hover,
-.forthhoverZoomImage:hover,.fifthhoverZoomImage:hover,.sixthhoverZoomImage:hover {
+.secondhoverZoomImage:hover,
+.thirdhoverZoomImage:hover,
+.forthhoverZoomImage:hover,
+.fifthhoverZoomImage:hover,
+.sixthhoverZoomImage:hover {
     transform: translateY(-55%);
     cursor: pointer;
 }
 
 .portfolioImages {
     display: flex;
+}
+
+/* responsiveness */
+@media (min-width: 1008px) and (max-width: 1300px) {}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+    .mainHeading h1 {
+        font-size: x-large;
+    }
+
+    .mainHeading p {
+        font-size: small;
+    }
+
+    .firstImage {
+        width: 30%;
+        margin: 1%;
+        height: 15rem;
+        overflow: hidden;
+    }
+
+    .hoverZoomImage {
+        width: 100%;
+        height: 700px;
+        transition: transform 2s;
+    }
+
+    .secondImage {
+        width: 30%;
+        margin: 1%;
+        height: 15rem;
+        overflow: hidden;
+    }
+
+    .secondhoverZoomImage {
+        width: 100%;
+        height: 700px;
+        transition: transform 2s;
+    }
+
+    .thirdhoverZoomImage {
+        width: 100%;
+        height: 1200px;
+        transition: transform 2s;
+    }
+
+    .forthhoverZoomImage {
+        width: 100%;
+        height: 1300px;
+        transition: transform 2s;
+    }
+
+    .fifthhoverZoomImage {
+        width: 100%;
+        height: 1500px;
+        transition: transform 2s;
+    }
+    .sixthhoverZoomImage{
+        width: 100%;
+        height: 1000px;
+        transition: transform 2s;
+    }
 }

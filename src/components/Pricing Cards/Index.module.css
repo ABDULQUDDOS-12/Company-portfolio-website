@@ -13,7 +13,7 @@
 }
 .firstCard{
     width: 31%;
-    background-color:aquamarine;
+    background-color:transparent;
     height: 700px;
     margin: auto;
     padding-top: 2%;
@@ -87,4 +87,19 @@
     width: 90%;
     margin: auto;
     margin-top: 3%;
+}
+/* Responsiveness */
+@media (min-width: 1008px) and (max-width: 1300px){
+   .buttonContainer button{
+    font-size: inherit;
+   }
+}
+@media (min-width: 641px) and (max-width: 1007px){
+   .firstCard{
+    width: 46%;
+    height: auto;
+   }
+   .buttonContainer button{
+    font-size: small;
+   }
 }

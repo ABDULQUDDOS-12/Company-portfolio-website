@@ -56,3 +56,16 @@
     color: #E92747;
     padding-right: 5%;
 }
+
+/* Responsiveness */
+@media (min-width: 1008px) and (max-width: 1300px){
+   .mainCardContainer{
+    background: transparent;
+   }
+   .phoneDetails p{
+    font-size: smaller;
+   }
+}
+@media (min-width: 641px) and (max-width: 1007px){
+
+}
