@@ -127,3 +127,38 @@ form button{
     margin-left: 5%;
     margin-bottom: 17%;
 }
+/* Responsiveness  */
+@media (min-width: 1008px) and (max-width: 1300px){
+    .rightHandContainer{
+        width: 30%;
+    }
+}
+@media (min-width: 641px) and (max-width: 1007px){
+    .mainHeading{
+        font-size: large;
+    }
+    .importantPoints h2{
+        font-size: large;
+        line-height: 2;
+    }
+    .checkPoints{
+        font-size: x-small;
+        line-height: 2;
+    }
+    .leftHandContainer{
+        width: 55%;
+    }
+    .rightHandContainer{
+        width: 32%;
+    }
+    .empowerButtons{
+        width: 75%;
+        margin-top: 5%;
+    }
+    .formHeadings H1{
+        font-size: x-large;
+    }
+    form button{
+        font-size: small;
+    }
+}
