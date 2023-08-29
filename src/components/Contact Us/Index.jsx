@@ -33,7 +33,7 @@ const Index = () => {
                     </div>
                     <div className={styles.contactDetails}>
                         <HiMail className={styles.mailIcon} />
-                        <p>support@customwebsiteagency.com</p>
+                        <p>support@customwebsite agency.com</p>
                     </div>
                 </div>
             </div>

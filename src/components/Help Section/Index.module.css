@@ -73,3 +73,66 @@
  .officeImage{
     width: 100%;
  }
+ /* Responsiveness */
+ @media (min-width: 1008px) and (max-width: 1300px){
+   .imageContainer{
+    width: 120%;
+   }
+ }
+ @media (min-width: 641px) and (max-width: 1007px){
+   .mainHeading{
+    font-size: large;
+   }
+   .mainHeading p{
+    font-size: small;
+   }
+   .imageContainer h2{
+    font-size: large;
+   }
+   .textContainer p{
+    font-size: small;
+   }
+ }
+ @media (min-width: 360px) and (max-width: 640px){
+    .mainContainer{
+        width: 80%;
+        margin: auto;
+        flex-wrap: wrap;
+        margin-top: 15%;
+    }
+    .mainHeading h1{
+        font-size: x-large;
+    }
+    .leftHandContainer{
+        width: 80%;
+        margin: auto;
+    }
+    .mainHeading p{
+        margin-top: 5%;
+        font-size: small;
+    }
+    .rightHandContainer{
+        width: 80%;
+        margin: auto;
+        margin-top: 5%;
+    }
+    .officeImageContainer{
+        display: none;
+    }
+    .imageContainer h2{
+     font-size: small;
+    }
+    .imageContainer img{
+        width: 17%;
+    }
+    .imageContainer .leftCircle ,.imageContainer .rightCircle{
+        font-size: xx-large;
+    }
+    .imageContainer{
+        width: 100%;
+        margin: auto;
+    }
+    .textContainer p{
+        font-size: small;
+    }
+ }

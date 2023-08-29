@@ -134,4 +134,54 @@
         height: 1000px;
         transition: transform 2s;
     }
+
 }
+    @media (min-width: 360px) and (max-width: 640px){
+        .mainHeading{
+            width: 80%;
+            margin: auto;
+        }
+        .mainHeading h1{
+        font-size: xx-large;
+     }
+     .mainContainer{
+        margin-top: 15%;
+     }
+     .mainHeading p{
+        margin-top: 5%;
+        font-size: small;
+     }
+     .wrapper{
+        width: 80%;
+     }
+     .firstImage{
+        width: 48%;
+        margin: 1%;
+        height: 12rem;
+        overflow: hidden;
+     }
+     .hoverZoomImage{
+        height: 500px;
+     }
+     .secondImage{
+        width: 48%;
+        margin: 1%;
+        height: 12rem;
+        overflow: hidden;
+     }
+     .secondhoverZoomImage{
+        height: 650px;
+     }
+     .thirdhoverZoomImage{
+        height: 1000px;
+     }
+     .forthhoverZoomImage{
+        height: 1000px;
+     }
+     .fifthhoverZoomImage{
+        height: 1000px;
+     }
+     .sixthhoverZoomImage{
+        height: 600px;
+     }
+    }

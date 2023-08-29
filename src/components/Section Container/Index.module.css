@@ -87,3 +87,9 @@
        margin-top: 15%;
     }
 }
+@media (min-width: 360px) and (max-width: 640px){
+    .mainContainer{
+        display: none;
+    }
+   
+}

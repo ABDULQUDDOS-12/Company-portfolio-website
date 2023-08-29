@@ -56,3 +56,29 @@
         font-size: small;
     }
 }
+@media (min-width: 360px) and (max-width: 640px){
+    .mainContainer{
+        width: 80%;
+        margin: auto;
+        margin-top: 15%;
+    }
+    .mainHeading{
+        font-size: large;
+    }
+    .mainTextContainer{
+        width: 80%;
+        margin: auto;
+    }
+    .mainTextContainer p{
+        font-size: small;
+    }
+    .buttonsContainer{
+        margin-top: 10%;
+    }
+    .buttonsContainer button{
+        margin: auto;
+        margin-top: 4%;
+        width: 80%;
+        padding: 5%;
+    }
+}

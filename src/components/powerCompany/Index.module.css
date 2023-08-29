@@ -124,3 +124,30 @@
         font-size: large;
     }
 }
+
+@media (min-width: 360px) and (max-width: 640px) {
+    .mainContainer {
+        width: 80%;
+        margin: auto;
+    }
+
+    .mainHeading {
+        font-size: large;
+    }
+
+    .mainTextContainer p {
+        font-size: small;
+    }
+
+    .allImagesContainers {
+        width: 100%;
+    }
+
+    .firstimageContainer h1,
+    .secondimageContainer h1,
+    .thirdimageContainer h1,
+    .forthImageContainer h1,
+    .fifthImageContainer h1{
+        font-size: small;
+    }
+}

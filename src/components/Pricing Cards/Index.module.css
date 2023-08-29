@@ -103,3 +103,25 @@
     font-size: small;
    }
 }
+@media (min-width: 360px) and (max-width: 640px){
+    .firstCard{
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    .checkPoints span{
+        font-size: small;
+    }
+    .buttonContainer{
+        display: flex;
+    }
+    .buttonContainer button{
+        font-size: small;
+    }
+    .lastlineContainer p{
+        font-size: small;
+        margin-bottom: 5%;
+    }
+    .firstCard{
+        height: auto;
+    }
+}

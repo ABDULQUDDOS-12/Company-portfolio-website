@@ -1,51 +1,60 @@
-.mainContainer{
+.mainContainer {
     display: flex;
     background-color: black;
     height: auto;
 }
-.mainHeading{
+
+.mainHeading {
     color: white;
     font-size: x-large;
 }
-.mainHeading span{
+
+.mainHeading span {
     color: #E92747;
 }
-.leftHandContainer{
+
+.leftHandContainer {
     padding: 4%;
     width: 58%;
     margin-top: 8%;
 }
-.importantPoints{
+
+.importantPoints {
     color: white;
     margin: 2% 0%;
 }
-.importantPoints span{
+
+.importantPoints span {
     color: #E92747;
 }
-.rightArrow{
+
+.rightArrow {
     color: #E92747;
     font-size: x-large;
 }
 
-.checkPoints h2{
+.checkPoints h2 {
     color: white;
     margin: 1% 2%;
 }
-.checkpointNumbers{
+
+.checkpointNumbers {
     display: flex;
     align-items: center;
 }
-.empowerButtons{
+
+.empowerButtons {
     margin-top: 2%;
     display: flex;
     width: 60%;
     justify-content: space-between;
 }
-.empowerButtons button{
+
+.empowerButtons button {
     font-weight: 600;
     width: 47%;
     font-size: 14PX;
-    text-transform:capitalize;
+    text-transform: capitalize;
     justify-content: space-between;
     padding: 3%;
     border: 2px solid white;
@@ -53,11 +62,12 @@
     background-color: transparent;
     border-radius: 10px;
 }
-.empowerButtons button:nth-child(1){
+
+.empowerButtons button:nth-child(1) {
     font-weight: 600;
     width: 47%;
     font-size: 14PX;
-    text-transform:capitalize;
+    text-transform: capitalize;
     justify-content: space-between;
     padding: 3%;
     border: 2px solid #E92747;
@@ -65,42 +75,49 @@
     background-color: #E92747;
     border-radius: 10px;
 }
-.rightHandContainer{
+
+.rightHandContainer {
     margin-top: 10%;
     width: 28%;
-   color: white;
-   border-radius: 5px;
-   border: 1px solid white;
-   background-color: white;
-   box-shadow: 0 0 10px 10px #ffffff52;
-   margin-bottom: 8%;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 0 0 10px 10px #ffffff52;
+    margin-bottom: 8%;
 }
-.formHeadings{
+
+.formHeadings {
     text-align: center;
     padding: 10%;
 }
-.formHeadings h1{
-  margin-top: 5%;
-  color: #141232;
+
+.formHeadings h1 {
+    margin-top: 5%;
+    color: #141232;
 }
-.formHeadings h3{
+
+.formHeadings h3 {
     margin-top: 5%;
     color: #E92747;
-  }
-form input{
+}
+
+form input {
     width: 90%;
     padding: 4%;
     color: black;
     margin-bottom: 7%;
     border: 1px solid #CACACA;
     transition: 0.5s linear ease-in;
-    
+
 }
-form{
+
+form {
     margin: auto;
     width: 80%;
 }
-form textarea{
+
+form textarea {
     width: 90%;
     padding: 4%;
     color: black;
@@ -108,57 +125,123 @@ form textarea{
     outline: none;
     margin-bottom: 7%;
 }
-form textarea::placeholder,form input::placeholder{
+
+form textarea::placeholder,
+form input::placeholder {
     font-weight: bold;
     color: #CACACA;
 }
-form input:active{
+
+form input:active {
     outline: 2px solid black;
 }
-form button{
+
+form button {
     padding: 5%;
     width: 90%;
     border-radius: 25px;
-    border: 1px solid #141232;  
-    background-color: #141232; 
+    border: 1px solid #141232;
+    background-color: #141232;
     color: white;
     font-weight: 550;
     font-size: large;
     margin-left: 5%;
     margin-bottom: 17%;
 }
+
 /* Responsiveness  */
-@media (min-width: 1008px) and (max-width: 1300px){
-    .rightHandContainer{
+@media (min-width: 1008px) and (max-width: 1300px) {
+    .rightHandContainer {
         width: 30%;
     }
 }
-@media (min-width: 641px) and (max-width: 1007px){
-    .mainHeading{
+
+@media (min-width: 641px) and (max-width: 1007px) {
+    .mainHeading {
         font-size: large;
     }
-    .importantPoints h2{
+
+    .importantPoints h2 {
         font-size: large;
         line-height: 2;
     }
-    .checkPoints{
+
+    .checkPoints {
         font-size: x-small;
         line-height: 2;
     }
-    .leftHandContainer{
+
+    .leftHandContainer {
         width: 55%;
     }
-    .rightHandContainer{
+
+    .rightHandContainer {
         width: 32%;
     }
-    .empowerButtons{
+
+    .empowerButtons {
         width: 75%;
         margin-top: 5%;
     }
-    .formHeadings H1{
+
+    .formHeadings H1 {
         font-size: x-large;
     }
-    form button{
+
+    form button {
         font-size: small;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+    .mainContainer {
+        flex-direction: column;
+    }
+
+    .leftHandContainer {
+        width: 90%;
+        margin: auto;
+    }
+
+    .mainHeading {
+        width: 80%;
+        font-size: large;
+        margin: auto;
+        margin-top: 20%;
+    }
+
+    .importantPoints {
+        width: 80%;
+        font-size: x-small;
+        margin: auto;
+        margin-top: 5%;
+        font-weight: 400;
+    }
+
+    .checkPoints {
+        font-size: x-small;
+        width: 80%;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+    .empowerButtons{
+        margin: auto;
+        margin-top: 5%;
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+    }
+    .importantPoints h2{
+        font-weight: 400;
+    }
+    .checkpointNumbers h2{
+       font-weight: 400;
+    }
+    .rightHandContainer{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10%;
+        margin-top: 10%;
     }
 }
