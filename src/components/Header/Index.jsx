@@ -1,5 +1,6 @@
 import React,{useState,useEffect} from 'react'
 import styles from './Index.module.css'
+import {GiHamburgerMenu} from 'react-icons/gi'
 const Index = () => {
   const [buttonText, setButtonText] = useState("Get A Quote");
   const changeButtonText = () => {
@@ -15,13 +16,13 @@ const Index = () => {
       window.removeEventListener("resize", changeButtonText);
     };
   }, []);
-  
+  const [showMediaIcons, setShowMediaIcons] = useState(false);
   return (
     <div className={styles.mainContainer}>
       <div className={styles.logoContainer}>
         <img className={styles.image} src="https://customwebsiteagency.com/images/logo.png" alt="" />
       </div>
-      <div className={styles.navbarMainContainer}>
+      <div className={showMediaIcons? styles.mobilemenuLink : styles.navbarMainContainer}>
         <ul>
           <li>HOME</li>
           <li>ABOUT US</li>
@@ -34,6 +35,11 @@ const Index = () => {
       <div className={styles.getAQuote}>
         <button className={styles.getAQuoteButton}>{buttonText}</button>
       </div>
+      <div className={styles.hamburgerMenu}>
+          <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+            <GiHamburgerMenu className={styles.hambergerMenuIcon}/>
+          </a>
+        </div>
     </div>
   )
 }

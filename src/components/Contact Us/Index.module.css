@@ -152,8 +152,9 @@
         font-size: small;
         width: 80%;
         display: flex;
-       
+       margin-left: 0%;
         flex-wrap: wrap;
+        text-align: center;
     }
     .contactDetails .phoneIcon{
         margin-top: 5%;
