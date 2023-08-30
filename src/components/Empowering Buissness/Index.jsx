@@ -1,10 +1,16 @@
 import React from 'react'
 import styles from './Index.module.css'
 import { BiRightArrowCircle } from "react-icons/bi";
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 const Index = () => {
+    AOS.init({
+        duration: 1000, // Animation duration in milliseconds
+        easing: 'ease-in-out', // Animation timing function
+      });
     return (
         <div className={styles.mainContainer}>
-            <div className={styles.leftHandContainer}>
+            <div data-aos="fade-right" className=  {styles.leftHandContainer}>
                 <div className={styles.mainHeading}>
                     <h1>We <span>Empower</span> Your Buisness</h1>
                 </div>
@@ -32,7 +38,7 @@ const Index = () => {
                     <button>CHAT WITH US</button>
                 </div>
             </div>
-            <div className={styles.rightHandContainer}>
+            <div data-aos="fade-left" className={styles.rightHandContainer}>
                 <div className={styles.formHeadings}>
                     <h3>Lets Get Started</h3>
                     <h1>Avail Upto 70% Discount</h1>

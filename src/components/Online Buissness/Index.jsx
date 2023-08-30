@@ -1,9 +1,18 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import styles from './Index.module.css'
 import mockup from '../../images/mockup.webp'
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 const Index = () => {
+    useEffect(() => {
+
+        AOS.init({
+          duration: 1000, // Animation duration in milliseconds
+          easing: 'ease-in-out', // Animation timing function
+        }); // Initialize AOS
+      }, []);
     return (
-        <div className={styles.mainContainer}>
+        <div data-aos="zoom-in" className={styles.mainContainer}>
             <div className={styles.leftHandContainer}>
                 <div className={styles.mainHeading}>
                     <h1>Get Your <span>Business</span> Online Today!</h1>

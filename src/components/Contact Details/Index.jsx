@@ -1,10 +1,19 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import styles from './Index.module.css'
 import { FaPhoneAlt } from "react-icons/fa"
 import { BsFillChatLeftDotsFill } from 'react-icons/bs'
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 const Index = () => {
+  useEffect(() => {
+
+    AOS.init({
+      duration: 1000, // Animation duration in milliseconds
+      easing: 'ease-in-out', // Animation timing function
+    }); // Initialize AOS
+  }, []);
   return (
-    <div className={styles.mainContainer}>
+    <div data-aos="zoom-in-up" className={styles.mainContainer}>
       <div className={styles.mainHeading}>
         <h1>Need An Urgent <span>Project Delivered ASAP?</span> Were Waiting For Your <span>Call!</span></h1>
       </div>

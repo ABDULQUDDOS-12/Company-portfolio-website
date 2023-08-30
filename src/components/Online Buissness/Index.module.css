@@ -36,24 +36,40 @@
     width: 45%;
     padding: 2%;
     border-radius: 10px;
-    border: 1px solid #e92747;
-    background: #e92747;
+    border: 2px solid #e92747;
     color: white;
     font-size: large;
     margin-bottom: 3%;
     margin-top: 5%;
+    background: linear-gradient(to right, #e92747 0%, #e92747 0%);
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    transition: background-position  0.5s ease-in-out,background-color 1s ease-out;
 }
-
+.buttonContainer button:nth-child(1):hover{
+    background-position: -100% 0%;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
 .buttonContainer button:nth-child(2) {
     width: 45%;
     padding: 2%;
     border-radius: 10px;
     border: 2px solid black;
-    background: transparent;
     font-size: large;
     color: black;
+    background: linear-gradient(to right, white 0%, white 0%);
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    transition: background-position  0.5s ease-in-out,background-color 1s ease-out;
 }
-
+.buttonContainer button:nth-child(2):hover{
+    background-position: -100% 0%;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
 .rightHandContainer {
     width: 55%;
     margin-top: 10%;

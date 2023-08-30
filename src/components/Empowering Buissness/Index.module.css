@@ -47,6 +47,7 @@
     margin-top: 2%;
     display: flex;
     width: 60%;
+    
     justify-content: space-between;
 }
 
@@ -59,9 +60,20 @@
     padding: 3%;
     border: 2px solid white;
     color: white;
-    background-color: transparent;
+    background: linear-gradient(to right,  black 0%,  black 0%);
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
     border-radius: 10px;
+    transition: background-position  0.5s ease-in-out,background-color 0.5s ease-out;
 }
+.empowerButtons button:hover{
+    background-position: -100% 0%;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    border: 2px solid #E92747;
+}
+
 
 .empowerButtons button:nth-child(1) {
     font-weight: 600;
@@ -72,10 +84,18 @@
     padding: 3%;
     border: 2px solid #E92747;
     color: white;
-    background-color: #E92747;
+    background: linear-gradient(to right,  #e92747 0%,  #e92747 0%);
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
     border-radius: 10px;
+    transition: background-position  0.5s ease-in-out,background-color 0.5s ease-out;
 }
-
+.empowerButtons button:nth-child(1):hover{
+    background-position: -100% 0%;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
 .rightHandContainer {
     margin-top: 10%;
     width: 28%;
@@ -147,8 +167,13 @@ form button {
     font-size: large;
     margin-left: 5%;
     margin-bottom: 17%;
+    transition: background-color 0.3s  ease-in;
 }
-
+form button:hover{
+    background-color: #E92747;
+    border: 1px solid #E92747;
+    cursor: pointer;
+}
 /* Responsiveness  */
 @media (min-width: 1008px) and (max-width: 1300px) {
     .rightHandContainer {

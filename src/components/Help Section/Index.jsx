@@ -1,14 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from './Index.module.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 import personImage from '../../images/t1.png'
 import { AiFillLeftCircle } from "react-icons/ai";
 import { AiFillRightCircle } from "react-icons/ai";
 import office from '../../images/office.webp'
 import comma from '../../images/commas.jpeg'
-
 const Index = () => {
+    useEffect(() => {
+
+        AOS.init({
+            duration: 1000, // Animation duration in milliseconds
+            easing: 'ease-in-out', // Animation timing function
+        }); // Initialize AOS
+    }, []);
     return (
-        <div className={styles.mainContainer}>
+        <div data-aos="zoom-in-up" className={styles.mainContainer}>
             <div className={styles.leftHandContainer}>
                 <div className={styles.mainHeading}>
                     <h1>Our <span>Customers</span> Can Help You Know Us <span>Better!</span></h1>
@@ -31,9 +39,9 @@ const Index = () => {
                     </div>
                 </div>
             </div>
-                <div className={styles.officeImageContainer}>
-                  <img src={office} alt="" className={styles.officeImage}/>
-                </div>
+            <div className={styles.officeImageContainer}>
+                <img src={office} alt="" className={styles.officeImage} />
+            </div>
         </div>
     )
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import styles from './Index.module.css'
 import banner1 from '../../images/Banner 1.png'
 import banner2 from '../../images/Banner 2.png'
@@ -7,11 +7,20 @@ import banner4 from '../../images/Banner 4.png'
 import banner5 from '../../images/Banner 5.png'
 import banner6 from '../../images/Banner 6.png'
 import { GiCheckMark } from "react-icons/gi";
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 const Index = () => {
+    useEffect(() => {
+
+        AOS.init({
+          duration: 1000, // Animation duration in milliseconds
+          easing: 'ease-in-out', // Animation timing function
+        }); // Initialize AOS
+      }, []);
     return (
         <div className={styles.mainContainer}>
             <div className={styles.cardsContainer}>
-                <div className={styles.firstCard}>
+                <div data-aos="zoom-in-up" className={styles.firstCard}>
                     <div className={styles.firstImageContainer}>
                         <img src={banner1} alt="" className={styles.firstImage} />
                     </div>
@@ -38,7 +47,7 @@ const Index = () => {
                         <p>Suitable for potential super-startups and brand revamps for companies</p>
                     </div>
                 </div>
-                <div className={styles.firstCard}>
+                <div data-aos="zoom-in-up" className={styles.firstCard}>
                     <div className={styles.firstImageContainer}>
                         <img src={banner2} alt="" className={styles.firstImage} />
                     </div>
@@ -65,7 +74,7 @@ const Index = () => {
                         <p>Suitable for potential super-startups and brand revamps for companies</p>
                     </div>
                 </div>
-                <div className={styles.firstCard}>
+                <div data-aos="zoom-in-up" className={styles.firstCard}>
                     <div className={styles.firstImageContainer}>
                         <img src={banner3} alt="" className={styles.firstImage} />
                     </div>
@@ -92,7 +101,7 @@ const Index = () => {
                         <p>Suitable for potential super-startups and brand revamps for companies</p>
                     </div>
                 </div>
-                <div className={styles.firstCard}>
+                <div data-aos="zoom-in-up" className={styles.firstCard}>
                     <div className={styles.firstImageContainer}>
                         <img src={banner4} alt="" className={styles.firstImage} />
                     </div>
@@ -119,7 +128,7 @@ const Index = () => {
                         <p>Suitable for potential super-startups and brand revamps for companies</p>
                     </div>
                 </div>
-                <div className={styles.firstCard}>
+                <div data-aos="zoom-in-up" className={styles.firstCard}>
                     <div className={styles.firstImageContainer}>
                         <img src={banner5} alt="" className={styles.firstImage} />
                     </div>
@@ -146,7 +155,7 @@ const Index = () => {
                         <p>Suitable for potential super-startups and brand revamps for companies</p>
                     </div>
                 </div>
-                <div className={styles.firstCard}>
+                <div data-aos="zoom-in-up" className={styles.firstCard}>
                     <div className={styles.firstImageContainer}>
                         <img src={banner6} alt="" className={styles.firstImage} />
                     </div>

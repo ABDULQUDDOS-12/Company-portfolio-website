@@ -1,13 +1,22 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import styles from './Index.module.css'
 import image from '../../images/b1.webp'
 import moneyImage from '../../images/b21.png'
 import clientImage from '../../images/b22.png'
 import clockImage from '../../images/b23.png'
 import computerImage from '../../images/b24.png'
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 const Index = () => {
+    useEffect(() => {
+
+        AOS.init({
+          duration: 1500, // Animation duration in milliseconds
+          easing: 'ease-in-out', // Animation timing function
+        }); // Initialize AOS
+      }, []);
     return (
-        <div className={styles.mainContainer}>
+        <div data-aos="zoom-in-up" className={styles.mainContainer}>
             <div className={styles.leftHandContainer}>
                 <div className={styles.imageContainer}>
                     <img src={image} alt="" className={styles.image} />
