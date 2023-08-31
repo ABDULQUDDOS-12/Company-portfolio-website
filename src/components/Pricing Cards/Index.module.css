@@ -73,6 +73,11 @@
     font-weight: 500;
     font-size: 18px;
     cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.buttonContainer button:hover{
+    color: #141232;
+    background-color: white;
 }
 .buttonContainer button:nth-child(2){
     margin-top: 10%;
@@ -82,6 +87,12 @@
     background-color: transparent;;
     color: #E92747;
     margin-left: 3%;
+    transition: all 0.3s ease-in;
+}
+.buttonContainer button:nth-child(2):hover{
+    color: white;
+    background-color: #141232;
+    border: 2px solid #141232;
 }
 .lastlineContainer{
     width: 90%;

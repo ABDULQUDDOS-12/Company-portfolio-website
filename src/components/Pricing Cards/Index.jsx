@@ -29,15 +29,15 @@ const Index = () => {
                     </div>
                     <hr />
                     <div className={styles.checkPoints}>
-                        <span><GiCheckMark /> 3 page Website</span><br />
-                        <span><GiCheckMark /> 2 Stock Images</span><br />
-                        <span><GiCheckMark /> 1 jQuery Slider Banner</span><br />
-                        <span><GiCheckMark /> Contact/Query Form</span><br />
-                        <span><GiCheckMark /> 48 to 72 hours TAT</span><br />
-                        <span><GiCheckMark /> Complete Deployment</span><br />
-                        <span><GiCheckMark /> 100% Satisfaction Guarantee</span><br />
-                        <span><GiCheckMark /> 100% Unique Design Guarantee</span><br />
-                        <span><GiCheckMark /> 100% Money Back Guarantee</span><br />
+                        <span><GiCheckMark/> 3 page Website</span><br />
+                        <span><GiCheckMark/> 2 Stock Images</span><br />
+                        <span><GiCheckMark/> 1 jQuery Slider Banner</span><br />
+                        <span><GiCheckMark/> Contact/Query Form</span><br />
+                        <span><GiCheckMark/> 48 to 72 hours TAT</span><br />
+                        <span><GiCheckMark/> Complete Deployment</span><br />
+                        <span><GiCheckMark/> 100% Satisfaction Guarantee</span><br />
+                        <span><GiCheckMark/> 100% Unique Design Guarantee</span><br />
+                        <span><GiCheckMark/> 100% Money Back Guarantee</span><br />
                     </div>
                     <div className={styles.buttonContainer}>
                         <button>CHAT NOW</button>

@@ -42,9 +42,11 @@
 .imageContainer .leftCircle{
    margin-left: 6%;
    font-size: 50px;
+   cursor: pointer;
 }
 .imageContainer .rightCircle{
     font-size: 50px;
+    cursor: pointer;
  }
  .chatContainer{
     margin-top: 8%;

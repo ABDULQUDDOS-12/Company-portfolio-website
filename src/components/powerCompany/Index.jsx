@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React, { useEffect } from 'react'
 import styles from './Index.module.css'
 import laptop from '../../images/c1.webp'
 import finance from '../../images/c2.webp'
@@ -11,10 +11,10 @@ const Index = () => {
     useEffect(() => {
 
         AOS.init({
-          duration: 1500, // Animation duration in milliseconds
-          easing: 'ease-in-out', // Animation timing function
+            duration: 1500, // Animation duration in milliseconds
+            easing: 'ease-in-out', // Animation timing function
         }); // Initialize AOS
-      }, []);
+    }, []);
     return (
         <div data-aos="zoom-in-up" className={styles.mainContainer}>
             <div className={styles.mainHeading}>
@@ -23,25 +23,36 @@ const Index = () => {
             <div className={styles.mainTextContainer}>
                 <p>Whatever it is you need, An entirely new website or an old one revamped, Our customer representatives are just a call away to answer all your queries. We’re always excited to start your project.</p>
             </div>
+
             <div className={styles.allImagesContainers}>
-                <div className={styles.firstimageContainer}>
-                    <img src={laptop} alt="" className={styles.firstImage}/>
+                <div className={styles.firstImageContainerWrapper}>
+                    <div className={styles.firstimageContainer}>
+                        <img src={laptop} alt="" className={styles.firstImage} />
+                    </div>
                     <h1>Online Store</h1>
                 </div>
-                <div className={styles.secondimageContainer}>
-                    <img src={finance} alt="" className={styles.secondImage} />
+                <div className={styles.firstImageContainerWrapper}>
+                    <div className={styles.secondimageContainer}>
+                        <img src={finance} alt="" className={styles.secondImage} />
+                    </div>
                     <h1>Finance</h1>
                 </div>
-                <div className={styles.thirdimageContainer}>
-                    <img src={charity} alt="" className={styles.thirdImage} />
+                <div className={styles.firstImageContainerWrapper}>
+                    <div className={styles.thirdimageContainer}>
+                        <img src={charity} alt="" className={styles.thirdImage} />
+                    </div>
                     <h1>Charity</h1>
                 </div>
-                <div className={styles.forthImageContainer}>
-                    <img src={Academic} alt="" className={styles.forthImage} />
+                <div className={styles.firstImageContainerWrapper}>
+                    <div className={styles.forthImageContainer}>
+                        <img src={Academic} alt="" className={styles.forthImage} />
+                    </div>
                     <h1>Academic</h1>
                 </div>
-                <div className={styles.fifthImageContainer}>
-                    <img src={serviceProvider} alt="" className={styles.fifthImage} />
+                <div className={styles.firstImageContainerWrapper}>
+                    <div className={styles.fifthImageContainer}>
+                        <img src={serviceProvider} alt="" className={styles.fifthImage} />
+                    </div>
                     <h1>Academic</h1>
                 </div>
             </div>
