@@ -1,8 +1,6 @@
 import React from 'react'
 import styles from './Index.module.css'
 import logo from '../../images/logo.png'
-import { FaPhoneAlt } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
 const Index = () => {
     return (
         <div className={styles.mainContainer}>
