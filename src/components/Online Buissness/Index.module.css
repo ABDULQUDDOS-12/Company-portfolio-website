@@ -2,6 +2,7 @@
     display: flex;
     height: 1000px;
 }
+
 .upArrowContainer {
     position: relative;
     z-index: 99;
@@ -15,6 +16,7 @@
     font-size: 45px;
     color: #E92747;
 }
+
 .leftHandContainer {
     margin-left: 3%;
     width: 37%;
@@ -56,14 +58,16 @@
     background: linear-gradient(to right, #e92747 0%, #e92747 0%);
     background-size: 200% 100%;
     background-repeat: no-repeat;
-    transition: background-position  0.5s ease-in-out,background-color 1s ease-out;
+    transition: background-position 0.5s ease-in-out, background-color 1s ease-out;
 }
-.buttonContainer button:nth-child(1):hover{
+
+.buttonContainer button:nth-child(1):hover {
     background-position: -100% 0%;
     background-color: white;
     cursor: pointer;
     color: black;
 }
+
 .buttonContainer button:nth-child(2) {
     width: 45%;
     padding: 2%;
@@ -74,21 +78,27 @@
     background: linear-gradient(to right, white 0%, white 0%);
     background-size: 200% 100%;
     background-repeat: no-repeat;
-    transition: background-position  0.5s ease-in-out,background-color 1s ease-out;
+    transition: background-position 0.5s ease-in-out, background-color 1s ease-out;
 }
-.buttonContainer button:nth-child(2):hover{
+
+.buttonContainer button:nth-child(2):hover {
     background-position: -100% 0%;
     background-color: black;
     cursor: pointer;
     color: white;
 }
+
 .rightHandContainer {
     width: 55%;
     margin-top: 10%;
-    background: url("../../images/Dots.png"), url('../../images/Circle.png');
+    background: url("../../images/Dots.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 50%, 100%;
+    /* background: url("../../images/Dots.png"), url('../../images/Circle.png');
     background-position: top right, bottom left;
     background-repeat: no-repeat, no-repeat;
-    background-size: 50%, 100%;
+    background-size: 50%, 100%; */
 }
 
 .foregroundImage img {
