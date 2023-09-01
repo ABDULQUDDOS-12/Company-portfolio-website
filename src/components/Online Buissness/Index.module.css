@@ -95,10 +95,14 @@
     background-position: top right;
     background-repeat: no-repeat;
     background-size: 50%, 100%; */
-    background: url("../../images/Dots.png"), url('../../images/Circle.png');
+    background: url('../../images/Circle.png');
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background: url("../../images/Dots.png"), url('../../images/Circle.png');
     background-position: top right, bottom left;
     background-repeat: no-repeat, no-repeat;
-    background-size: 50%, 100%;
+    background-size: 50%, 100%; */
 }
 
 .foregroundImage img {
