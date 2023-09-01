@@ -5,11 +5,10 @@ import AOS from 'aos'
 import 'aos/dist/aos.css';
 const Index = () => {
   useEffect(() => {
-
     AOS.init({
-      duration: 1000, // Animation duration in milliseconds
-      easing: 'ease-in-out', // Animation timing function
-    }); // Initialize AOS
+      duration: 1000,
+      easing: 'ease-in-out',
+    }); 
   }, []);
   const [buttonText, setButtonText] = useState("Get A Quote");
   const changeButtonText = () => {
@@ -26,6 +25,15 @@ const Index = () => {
     };
   }, []);
   const [showMediaIcons, setShowMediaIcons] = useState(false);
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    console.log(element)
+    console.log(123)
+    if (element) {
+
+      element.scrollIntoView({behavior: 'smooth'});
+    }
+  };
   return (
     <div className={styles.wrapper}>
       <div data-aos="fade-down" className={styles.mainContainer}>
@@ -34,16 +42,16 @@ const Index = () => {
         </div>
         <div className={showMediaIcons ? styles.mobilemenuLink : styles.navbarMainContainer}>
           <ul>
-            <li>HOME</li>
-            <li>ABOUT US</li>
-            <li>SERVICES</li>
-            <li>PORTFOLIO</li>
-            <li>PACKAGES</li>
-            <li>CONTACT</li>
+            <li onClick={() => scrollToSection('empowering-buisness')}>HOME</li>
+            <li onClick={() => scrollToSection('buisness')}>ABOUT US</li>
+            <li onClick={() => scrollToSection('web-packages')}>SERVICES</li>
+            <li onClick={() => scrollToSection('portfolio')}>PORTFOLIO</li>
+            <li onClick={() => scrollToSection('web-packages')}>PACKAGES</li>
+            <li onClick={() => scrollToSection('contact')}>CONTACT</li>
           </ul>
         </div>
         <div className={styles.getAQuote}>
-          <button className={styles.getAQuoteButton}>{buttonText}</button>
+          <button onClick={() => scrollToSection('quote')} className={styles.getAQuoteButton}>{buttonText}</button>
         </div>
         <div className={styles.hamburgerMenu}>
           <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>

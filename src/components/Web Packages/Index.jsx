@@ -11,7 +11,7 @@ const Index = () => {
         }); // Initialize AOS
       }, []);
     return (
-        <div className={styles.mainContainer}>
+        <div id='web-packages' className={styles.mainContainer}>
             <div data-aos="zoom-in-up" className={styles.mainHeading}>
                 <h1>Web <span>packages</span> We Offer</h1>
             </div>

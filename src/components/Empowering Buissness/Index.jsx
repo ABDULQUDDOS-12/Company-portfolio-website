@@ -10,7 +10,7 @@ const Index = () => {
     
       });
     return (
-        <div className={styles.mainContainer}>
+        <div className={styles.mainContainer} id='empowering-buisness'>
             <div  className=  {styles.leftHandContainer}>
                 <div className={styles.mainHeading}>
                     <h1>We <span>Empower</span> Your Buisness</h1>
@@ -39,7 +39,7 @@ const Index = () => {
                     <button>CHAT WITH US</button>
                 </div>
             </div>
-            <div className={styles.rightHandContainer}>
+            <div id='quote' className={styles.rightHandContainer}>
                 <div className={styles.formHeadings}>
                     <h3>Lets Get Started</h3>
                     <h1>Avail Upto 70% Discount</h1>

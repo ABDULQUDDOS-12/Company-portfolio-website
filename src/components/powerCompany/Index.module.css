@@ -32,6 +32,7 @@
     width: 30%;
     height: 30%;
     margin-top: 10%;
+    margin: auto;
     position: relative;
     overflow: hidden;
     cursor: pointer;
@@ -214,11 +215,9 @@
         font-size: small;
     }
 
-    .firstimageContainer h1,
-    .secondimageContainer h1,
-    .thirdimageContainer h1,
-    .forthImageContainer h1,
-    .fifthImageContainer h1 {
+
+    .firstImageContainerWrapper h1{
+        text-align: center;
         font-size: large;
     }
 }
@@ -241,11 +240,9 @@
         width: 100%;
     }
 
-    .firstimageContainer h1,
-    .secondimageContainer h1,
-    .thirdimageContainer h1,
-    .forthImageContainer h1,
-    .fifthImageContainer h1 {
+   
+    .firstImageContainerWrapper h1{
+        text-align: center;
         font-size: small;
     }
 }

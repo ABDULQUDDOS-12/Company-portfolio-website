@@ -9,7 +9,7 @@ import banner6 from '../../images/Banner 6.png'
 import { GiCheckMark } from "react-icons/gi";
 import AOS from 'aos'
 import 'aos/dist/aos.css';
-const Index = () => {
+const Index = ({id}) => {
     useEffect(() => {
 
         AOS.init({
@@ -18,7 +18,7 @@ const Index = () => {
         }); // Initialize AOS
       }, []);
     return (
-        <div className={styles.mainContainer}>
+        <div className={styles.mainContainer} id={id}>
             <div className={styles.cardsContainer}>
                 <div data-aos="zoom-in-up" className={styles.firstCard}>
                     <div className={styles.firstImageContainer}>

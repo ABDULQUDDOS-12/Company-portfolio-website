@@ -13,7 +13,7 @@ const Index = () => {
         }); // Initialize AOS
     }, []);
     return (
-        <div data-aos="zoom-in-up" className={styles.mainContainer}>
+        <div id='contact' data-aos="zoom-in-up" className={styles.mainContainer}>
             <div className={styles.formContainer}>
                 <div className={styles.leftContainer}>
                     <form action="">

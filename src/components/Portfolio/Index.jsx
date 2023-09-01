@@ -20,7 +20,7 @@ const Index = () => {
       }); // Initialize AOS
     }, []);
     return (
-        <div  className={styles.mainContainer}>
+        <div   className={styles.mainContainer} id='portfolio'>
             <div data-aos="zoom-in-up" className={styles.mainHeading}>
                 <h1>Our Award-Winning <span>Website</span> Portfolio</h1>
                 <p>Having Spent Years In The Industry, We Have A Wide Portfolio To Talk About</p>

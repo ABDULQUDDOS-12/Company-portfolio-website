@@ -25,8 +25,8 @@ const Index = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
       };
     return (
-        <div>
-            <div data-aos="zoom-in" className={styles.mainContainer}>
+        <div id='buisness'>
+            <div data-aos="zoom-in" className={styles.mainContainer} >
                 <div className={styles.leftHandContainer}>
                     <div className={styles.mainHeading}>
                         <h1>Get Your <span>Business</span> Online Today!</h1>
