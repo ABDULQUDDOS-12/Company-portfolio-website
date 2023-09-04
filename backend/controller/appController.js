@@ -12,10 +12,10 @@ const getbill = (req, res) => {
     };
     let transporter = nodemailer.createTransport(config);
     let MailGenerator = new mailgen({
-      theme: "salted",
+       theme: "neopolitan",
       product: {
-        name: "Squad Tech international private limited",
-        link: "https://www.squadtechsolution.com/",
+        name: "squad tech solutions",
+        link: "https://squadtechsolution.com/",
       },
     });
     let response = {
@@ -56,3 +56,4 @@ const getbill = (req, res) => {
     // signup,
     getbill,
   };
+
