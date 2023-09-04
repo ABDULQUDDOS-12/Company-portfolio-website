@@ -1,4 +1,4 @@
-const router = require('express').Router();
+const express = require('express').Router();
 const appRoute = require('./routes/routes.js')
 const app = express();
 const PORT = process.env.PORT||5000;
