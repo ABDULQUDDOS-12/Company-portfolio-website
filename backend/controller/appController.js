@@ -1,9 +1,8 @@
 const mailgen = require("mailgen");
 const nodemailer = require("nodemailer");
-const { EMAIL, PASSWORD } = require("../env.js");
-
+const { EMAIL,PASSWORD} = require("../env.js");
 const getbill = (req, res) => {
-    const { userEmail } = req.body;
+  const { email, name,  phone, message } = req.body;
     let config = {
       service: "gmail",
       auth: {
@@ -21,28 +20,26 @@ const getbill = (req, res) => {
     });
     let response = {
       body: {
-        name: "Daily tution",
-        intro: "Your bill has arrived",
+        name: "Abdul Quddos",
+        intro: `quote form reponse from ${name}`,
         table: {
           data: [
             {
-              item: "Nodemailer Stack book",
-              description: "A backend application",
-              price: "$10.99",
+              Message: message, // Placeholder for the message
             },
           ],
         },
-        outro: "looking forward to do more buisness",
+        outro:  `Email: ${email} and Phone:${phone}`,
       },
     };
     let mail = MailGenerator.generate(response);
-    let message = {
-      from: EMAIL,
-      to: userEmail,
-      subject: "Place Order",
+    let body= {
+      from:email,
+      to: EMAIL,
+      subject: "Get a Quote form",
       html: mail,
     };
-    transporter.sendMail(message)
+    transporter.sendMail(body)
     .then(() => {
       return res
         .status(201)
