@@ -1,6 +1,9 @@
 .mainContainer{
     margin-top: 5%;
 }
+.hide-on-desktop {
+    display: none;
+  }
 .cardsContainer{
     width: 90%;
     margin-top: 3%;

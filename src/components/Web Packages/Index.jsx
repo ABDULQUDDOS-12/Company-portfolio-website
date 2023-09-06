@@ -34,15 +34,15 @@ const Index = () => {
             </div>
             <div data-aos="zoom-in-up" className={styles.dropdownMenu}>
             <select name="" id="" onChange={handleOptionChange}>
-                <option value="">Basic Website Package</option>
-                <option value="">Startup Website Package</option>
-                <option value="">Professional Website Package</option>
-                <option value="">Elite Website Package</option>
-                <option value="">Buisness  Website Package</option>
-                <option value="">Corporate Website Package</option>
+                <option value="Basic Website Package">Basic Website Package</option>
+                <option  value="Startup Website Package">Startup Website Package</option>
+                <option value="Professional Website Package">Professional Website Package</option>
+                <option value="Elite Website Package">Elite Website Package</option>
+                <option value="Buisness Website Package">Buisness  Website Package</option>
+                <option value="Corporate Website Package">Corporate Website Package</option>
             </select>
             </div>
-            {/* <CardComponent className={styles.cardComponent} selectedOption={selectedOption}/> */}
+            <CardComponent className={styles.cardComponent} selectedOption={selectedOption}/>
         </div>
     )
 }
