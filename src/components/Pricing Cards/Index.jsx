@@ -1,5 +1,6 @@
 import React, { useEffect,useState } from 'react'
 import styles from './Index.module.css'
+import newstyles from '../Web Packages/Index.module.css'
 import banner1 from '../../images/Banner 1.png'
 import banner2 from '../../images/Banner 2.png'
 import banner3 from '../../images/Banner 3.png'
@@ -9,7 +10,6 @@ import banner6 from '../../images/Banner 6.png'
 import { GiCheckMark } from "react-icons/gi";
 import AOS from 'aos'
 import 'aos/dist/aos.css';
-
 const Index = ({ selectedOption }) => {
     const [isMobile, setIsMobile] = useState(window.innerWidth <= 640);
     const cardData = [
@@ -188,9 +188,25 @@ const Index = ({ selectedOption }) => {
     const filteredCards = isMobile ? cardData.filter((card) => card.id === selectedOption) : cardData;
     return (
         <div className={styles.mainContainer}>
+            <div data-aos="zoom-in-up" className={newstyles.mainHeading}>
+                <h1>Web <span>packages</span> We Offer</h1>
+            </div>
+            <div data-aos="zoom-in-up" className={newstyles.mainTextContainer}>
+                <p>We believes in catering unique services in competitive pricing structures. We have some fabulous packages carefully crafted for every services offered to offer the premium quality within your budget.</p>
+            </div>
+            <div data-aos="zoom-in-up" className={newstyles.buttonsContainer}>
+                <button>Website Design</button>
+                <button>E-commerce</button>
+                <button>Wordpress</button>
+                <button>Branding</button>
+                <button>Logo</button>
+                <button>Video Animation</button>
+                <button>SEO</button>
+            </div>
         <div className={styles.cardsContainer}>
-            {filteredCards.map((card) => (
-                <div key={card.id} data-aos="zoom-in-up" className={styles.firstCard}>
+        
+            {filteredCards.map((card,index) => (
+                <div key={index} data-aos="zoom-in-up" className={styles.firstCard}>
                     <div className={styles.firstImageContainer}>
                         <img src={card.image} alt="" className={styles.firstImage} />
                     </div>

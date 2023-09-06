@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import Header from './Header/Index'
 import EmpoweringBuissness from './Empowering Buissness/Index'
 import OnlineBuissness from './Online Buissness/Index'
@@ -12,7 +12,20 @@ import Branding from './Branding/Index'
 import HelpSection from './Help Section/Index'
 import ContactUs from './Contact Us/Index'
 import Footer from './Footer/Index'
+
 const Index = () => {
+    const [mobileView,setMobileView] = useState(window.innerWidth <= 640)
+useEffect(() => {  
+    const handleResize = () => {
+    setMobileView(window.innerWidth <= 640); // Adjust the screen width as needed
+  };
+
+  window.addEventListener('resize', handleResize);
+
+  return () => {
+    window.removeEventListener('resize', handleResize);
+  };
+}, []);
     return (
         <div>
             <Header/>
@@ -20,8 +33,7 @@ const Index = () => {
             <OnlineBuissness/>
             <PortfolioSection/>
             <SectionContainer/>
-            <WebPackages/>
-            <PricingCards/>
+            {mobileView?<WebPackages/>:<PricingCards/>}
             <PowerCompany/>
             <ContactDetails/>
             <Branding/>
