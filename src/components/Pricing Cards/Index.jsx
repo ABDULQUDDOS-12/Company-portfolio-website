@@ -9,7 +9,7 @@ import banner6 from '../../images/Banner 6.png'
 import { GiCheckMark } from "react-icons/gi";
 import AOS from 'aos'
 import 'aos/dist/aos.css';
-const Index = ({ selectedOption }) => {
+const Index = (/*{ selectedOption }*/) => {
     const cardData = [
         {
             id: 'Basic Website Design',
@@ -168,11 +168,11 @@ const Index = ({ selectedOption }) => {
           easing: 'ease-in-out',
         }); 
       }, []);
-      const filteredCards = cardData.filter((card) => card.id === selectedOption);
+    //   const filteredCards = cardData.filter((card) => card.id === selectedOption);
     return (
         <div className={styles.mainContainer} >
             <div className={styles.cardsContainer}>
-            {filteredCards.map((card) => ( <div  key={card.id} data-aos="zoom-in-up" className={styles.firstCard}>
+           <div  data-aos="zoom-in-up" className={styles.firstCard}>
                     <div className={styles.firstImageContainer}>
                         <img src={banner1} alt="" className={styles.firstImage} />
                     </div>
@@ -199,8 +199,8 @@ const Index = ({ selectedOption }) => {
                         <p>Suitable for potential super-startups and brand revamps for companies</p>
                     </div>
                 </div>
-                ))}
-                {/* <div data-aos="zoom-in-up" className={styles.firstCard}>
+               
+                <div data-aos="zoom-in-up" className={styles.firstCard}>
                     <div className={styles.firstImageContainer}>
                         <img src={banner2} alt="" className={styles.firstImage} />
                     </div>
@@ -391,8 +391,8 @@ const Index = ({ selectedOption }) => {
                     </div>
                     <div className={styles.lastlineContainer}>
                         <p>Suitable for potential super-startups and brand revamps for companies</p>
-                    </div> */}
-                {/* </div> */}
+                    </div> 
+                </div>
             </div>
         </div>
     )

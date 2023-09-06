@@ -42,7 +42,7 @@ const Index = () => {
                 <option value="">Corporate Website Package</option>
             </select>
             </div>
-            <CardComponent className={styles.cardComponent} selectedOption={selectedOption}/>
+            {/* <CardComponent className={styles.cardComponent} selectedOption={selectedOption}/> */}
         </div>
     )
 }
