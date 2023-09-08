@@ -211,14 +211,14 @@ const Index = ({ selectedOption }) => {
                         <img src={card.image} alt="" className={styles.firstImage} />
                     </div>
                     <div className={styles.textHeadingContainer}>
-                        <p>{`Plan Includes (${card.title}):`}</p>
+                        <p>{`Plan Includes:`}</p>
                     </div>
                     <hr />
                     <div className={styles.checkPoints}>
                         {card.checkpoints.map((checkpoint, index) => (
                             <span key={index}>
-                                <GiCheckMark /> {checkpoint}
-                            </span>
+                                <GiCheckMark /> {checkpoint}<br />
+                            </span> 
                         ))}
                     </div>
                     <div className={styles.buttonContainer}>
