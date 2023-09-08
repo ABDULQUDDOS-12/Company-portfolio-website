@@ -79,11 +79,13 @@
         margin-top: 15%;
     }
     .mainHeading{
-        font-size: large;
+        /* font-size: large; */
+        display: none;
     }
     .mainTextContainer{
         width: 80%;
         margin: auto;
+        display: none;
     }
     .mainTextContainer p{
         font-size: small;
