@@ -20,6 +20,10 @@
     text-align: center;
 }
 
+.logoContainer img {
+    width: 45%;
+}
+
 .navbarMainContainer {
     color: white;
     width: 50%;

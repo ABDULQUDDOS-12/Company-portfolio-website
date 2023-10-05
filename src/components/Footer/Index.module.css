@@ -1,62 +1,82 @@
-.mainContainer{
-    margin-top: 5%;
-    background-color: #141232;
-    padding: 5%;
-    padding-bottom: 2%;
+.mainContainer {
+  margin-top: 5%;
+  background-color: #141232;
+  padding: 5%;
+  padding-bottom: 2%;
 }
-.leftContainer{
-    width: 20%;
-    margin: auto;
-    text-align: center;
+
+.logoContainer {
+  width: 25%;
+  margin: auto;
 }
-.logoImage{
-    width: 100%;
+
+.leftContainer {
+  width: 50%;
+  margin: auto;
+  text-align: center;
 }
-.textContainer{
-    margin-top: 5%;
-    color: white;
+
+.logoImage {
+  width: 100%;
 }
-.copyright{
-    width: 100%;
-    text-align: center;
-    margin-top: 4%;
-   color: white;
+
+.textContainer {
+  margin-top: 5%;
+  color: white;
 }
+
+.copyright {
+  width: 100%;
+  text-align: center;
+  margin-top: 4%;
+  color: white;
+}
+
 /* Responsiveness */
-@media (min-width: 1008px) and (max-width: 1300px){
- .leftContainer{
+@media (min-width: 1008px) and (max-width: 1300px) {
+  .leftContainer {
     width: 23%;
- }
+  }
 }
-@media (min-width: 641px) and (max-width: 1007px){
-  .leftContainer{
+
+@media (min-width: 641px) and (max-width: 1007px) {
+  .leftContainer {
     width: 40%;
   }
-  .leftContainer div img{
+
+  .leftContainer div img {
     width: 80%
-  };
+  }
+
+  ;
 }
-@media (min-width: 360px) and (max-width: 640px){
-  .leftContainer{
+
+@media (min-width: 360px) and (max-width: 640px) {
+  .leftContainer {
     width: 80%;
     margin: auto;
   }
-  .leftContainer img{
+
+  .leftContainer img {
     width: 50%;
   }
-  .textContainer{
+
+  .textContainer {
     width: 60%;
     margin: auto;
   }
-  .textContainer p{
+
+  .textContainer p {
     font-size: small;
   }
-  .copyright{
+
+  .copyright {
     width: 100%;
     margin: auto;
     margin-top: 7%;
   }
-  .copyright p{
+
+  .copyright p {
     font-size: small;
   }
 }
