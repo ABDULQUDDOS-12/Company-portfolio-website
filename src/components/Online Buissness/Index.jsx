@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Index.module.css";
-import mockup from "../../images/mockup.webp";
+import mockup from "../../images/mockup.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
