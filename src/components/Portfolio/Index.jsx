@@ -22,10 +22,7 @@ const Index = () => {
         <h1>
           Our Top <span>2D/3D</span> Artworks
         </h1>
-        <p>
-          Having Spent Years In The Industry, We Have A Wide Portfolio To Talk
-          About
-        </p>
+        <p>Having Spent Years In The Industry, Here are our top artworks</p>
       </div>
       <div className={styles.wrapper}>
         <div data-aos="zoom-in-up" className={styles.firstImage}>
