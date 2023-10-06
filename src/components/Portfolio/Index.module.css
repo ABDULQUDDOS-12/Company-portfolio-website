@@ -20,7 +20,7 @@
 }
 
 .wrapper {
-    width: 90%;
+    width: 80%;
     margin: 1rem auto;
     display: flex;
     flex-wrap: wrap;
@@ -39,7 +39,7 @@
 .hoverZoomImage,
 .secondhoverZoomImage {
     width: 100%;
-    height: 1000px;
+    height: 100%;
     /* Ensure the image takes the full width of its container */
     transition: transform 2s;
 }
@@ -48,7 +48,7 @@
 .forthhoverZoomImage,
 .fifthhoverZoomImage {
     width: 100%;
-    height: 2000px;
+    height: 100%;
     /* Ensure the image takes the full width of its container */
     transition: transform 2s;
 }
@@ -58,16 +58,6 @@
     height: 1500px;
     /* Ensure the image takes the full width of its container */
     transition: transform 2s;
-}
-
-.hoverZoomImage:hover,
-.secondhoverZoomImage:hover,
-.thirdhoverZoomImage:hover,
-.forthhoverZoomImage:hover,
-.fifthhoverZoomImage:hover,
-.sixthhoverZoomImage:hover {
-    transform: translateY(-55%);
-    cursor: pointer;
 }
 
 .portfolioImages {
@@ -129,59 +119,73 @@
         height: 1500px;
         transition: transform 2s;
     }
-    .sixthhoverZoomImage{
+
+    .sixthhoverZoomImage {
         width: 100%;
         height: 1000px;
         transition: transform 2s;
     }
 
 }
-    @media (min-width: 360px) and (max-width: 640px){
-        .mainHeading{
-            width: 80%;
-            margin: auto;
-        }
-        .mainHeading h1{
+
+@media (min-width: 360px) and (max-width: 640px) {
+    .mainHeading {
+        width: 80%;
+        margin: auto;
+    }
+
+    .mainHeading h1 {
         font-size: xx-large;
-     }
-     .mainContainer{
+    }
+
+    .mainContainer {
         margin-top: 15%;
-     }
-     .mainHeading p{
+    }
+
+    .mainHeading p {
         margin-top: 5%;
         font-size: small;
-     }
-     .wrapper{
-        width: 80%;
-     }
-     .firstImage{
-        width: 48%;
-        margin: 1%;
-        height: 12rem;
-        overflow: hidden;
-     }
-     .hoverZoomImage{
-        height: 500px;
-     }
-     .secondImage{
-        width: 48%;
-        margin: 1%;
-        height: 12rem;
-        overflow: hidden;
-     }
-     .secondhoverZoomImage{
-        height: 650px;
-     }
-     .thirdhoverZoomImage{
-        height: 1000px;
-     }
-     .forthhoverZoomImage{
-        height: 1000px;
-     }
-     .fifthhoverZoomImage{
-        height: 1000px;
-     }
-     .sixthhoverZoomImage{
-        height: 600px;
-     }
     }
+
+    .wrapper {
+        width: 80%;
+    }
+
+    .firstImage {
+        width: 48%;
+        margin: 1%;
+        height: 12rem;
+        overflow: hidden;
+    }
+
+    .hoverZoomImage {
+        height: 500px;
+    }
+
+    .secondImage {
+        width: 48%;
+        margin: 1%;
+        height: 12rem;
+        overflow: hidden;
+    }
+
+    .secondhoverZoomImage {
+        height: 650px;
+    }
+
+    .thirdhoverZoomImage {
+        height: 1000px;
+    }
+
+    .forthhoverZoomImage {
+        height: 1000px;
+    }
+
+    .fifthhoverZoomImage {
+        height: 1000px;
+    }
+
+    .sixthhoverZoomImage {
+        height: 600px;
+    }
+}
