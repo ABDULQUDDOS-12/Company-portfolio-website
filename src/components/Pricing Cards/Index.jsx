@@ -14,9 +14,9 @@ const Index = ({ selectedOption }) => {
     const [isMobile, setIsMobile] = useState(window.innerWidth <= 640);
     const cardData = [
         {
-            id: 'Basic Website Package',
+            id: 'Basic Package',
             image: banner1,
-            title: 'Basic Website Package',
+            title: 'Basic Package',
             checkpoints: [
                 '3 page Website',
                 '2 Stock Images',
@@ -30,9 +30,9 @@ const Index = ({ selectedOption }) => {
             ]
         },
         {
-            id: 'Startup Website Package',
+            id: 'Standard Package',
             image: banner2,
-            title: 'Startup Website Package',
+            title: 'Standard Package',
             checkpoints: [
                 '5 Page Website',
                 '5 Stock Photos',
@@ -48,9 +48,9 @@ const Index = ({ selectedOption }) => {
             ]
         },
         {
-            id: 'Professional Website Package',
+            id: 'Professional Package',
             image: banner3,
-            title: 'Professional Website Package',
+            title: 'Professional Package',
             checkpoints: [
                 '10 Unique Pages Website',
                 'CMS / Admin Panel Support',
@@ -68,9 +68,9 @@ const Index = ({ selectedOption }) => {
             ]
         },
         {
-            id: 'Elite Website Package',
+            id: 'Diamond Package',
             image: banner4,
-            title: 'Elite Website Package',
+            title: 'Diamond Package',
             checkpoints: [
                 'Upto 15 Unique Pages Website',
                 'Conceptual and Dynamic Website',
@@ -93,80 +93,6 @@ const Index = ({ selectedOption }) => {
                 "100% Satisfaction Guarantee",
                 "100% Unique Design Guarantee",
                 "100% Money Back Guarantee"
-            ]
-        },
-        {
-            id: 'Buisness Website Package',
-            image: banner5,
-            title: 'Buisness Website Package',
-            checkpoints: [
-                '15 to 20 Pages Website',
-                'Custom Made, Interactive, Dynamic & High End Design',
-                'Custom WP (or) Custom PHP Development',
-                '1 jQuery Slider Banner',
-                'Up to 10 Custom Made Banner Designs',
-                '10 Stock Images',
-                'Unlimited Revisions',
-                'Special Hoover Effects',
-                'Content Management System (CMS)',
-                'Online Appointment/Scheduling/Online Ordering Integration (Optional)',
-                'Online Payment Integration (Optional)',
-                'Multi Lingual (Optional)',
-                'Custom Dynamic Forms (Optional)',
-                'Signup Area (For Newsletters, Offers etc.)',
-                'Search Bar',
-                'Live Feeds of Social Networks integration (Optional)',
-                'Mobile Responsive',
-                'Free Google Friendly Sitemap',
-                'Search Engine Submission',
-                'Complete W3C Certified HTML',
-                'Industry Specified Team of Expert Designers and Developers',
-                'Complete Deployment',
-                'Dedicated Accounts Manager',
-                '100% Satisfaction Guarantee',
-                '100% Unique Design Guarantee',
-                '100% Money Back Guarantee'
-
-
-            ]
-        },
-        {
-            id: 'Corporate Website Package',
-            image: banner6,
-            title: 'Corporate Website Package',
-            checkpoints: [
-
-                '15 to 20 Pages Website',
-                '15 Seconds 2D Explainer Video',
-                'Voice – Over & Sound Effects',
-                'Professional Script Writing',
-                'Storyboard',
-                'SEO Meta Tags',
-                'Custom Made, Interactive, Dynamic & High End Design',
-                'Custom WP (or) Custom PHP Development',
-                '1 jQuery Slider Banner',
-                'Up to 10 Custom Made Banner Designs',
-                '10 Stock Images',
-                'Unlimited Revisions',
-                'Special Hoover Effects',
-                'Content Management System (CMS)',
-                'Online Appointment/Scheduling/Online Ordering Integration (Optional)',
-                'Online Payment Integration (Optional)',
-                'Multi Lingual (Optional)',
-                'Custom Dynamic Forms (Optional)',
-                'Signup Area (For Newsletters, Offers etc)',
-                'Search Bar',
-                'Live Feeds of Social Networks integration (Optional)',
-                'Mobile Responsive',
-                'Free Google Friendly Sitemap',
-                'Search Engine Submission',
-                'Complete W3C Certified HTML',
-                'Industry Specified Team of Expert Designers and Developers',
-                'Complete Deployment',
-                'Dedicated Accounts Manager',
-                '100% Ownership Rights',
-                '100% Satisfaction Guarantee',
-                '100% Unique Design Guarantee'
             ]
         },
     ];
@@ -193,15 +119,6 @@ const Index = ({ selectedOption }) => {
             </div>
             <div data-aos="zoom-in-up" className={newstyles.mainTextContainer}>
                 <p>We believes in catering unique services in competitive pricing structures. We have some fabulous packages carefully crafted for every services offered to offer the premium quality within your budget.</p>
-            </div>
-            <div data-aos="zoom-in-up" className={newstyles.buttonsContainer}>
-                <button>Website Design</button>
-                <button>E-commerce</button>
-                <button>Wordpress</button>
-                <button>Branding</button>
-                <button>Logo</button>
-                <button>Video Animation</button>
-                <button>SEO</button>
             </div>
         <div className={styles.cardsContainer}>
         

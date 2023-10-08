@@ -23,15 +23,6 @@ const Index = () => {
             <div data-aos="zoom-in-up" className={styles.mainTextContainer}>
                 <p>We believes in catering unique services in competitive pricing structures. We have some fabulous packages carefully crafted for every services offered to offer the premium quality within your budget.</p>
             </div>
-            <div data-aos="zoom-in-up" className={styles.buttonsContainer}>
-                <button>Website Design</button>
-                <button>E-commerce</button>
-                <button>Wordpress</button>
-                <button>Branding</button>
-                <button>Logo</button>
-                <button>Video Animation</button>
-                <button>SEO</button>
-            </div>
             <div data-aos="zoom-in-up" className={styles.dropdownMenu}>
                 <select name="" id="" onChange={handleOptionChange}>
                     <option value="Basic Website Package">Basic Website Package</option>

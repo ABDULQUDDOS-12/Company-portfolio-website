@@ -2,9 +2,10 @@ import React, { useState, useEffect } from "react";
 import Header from "./Header/Index";
 import EmpoweringBuissness from "./Empowering Buissness/Index";
 import OnlineBuissness from "./Online Buissness/Index";
-import PortfolioSection from "./Portfolio/Index";
+import ArtworkSection from "./Top Artworks/Index";
 import SectionContainer from "./Section Container/Index";
 import WebPackages from "./Web Packages/Index";
+import Portfolio from "./Portfolio/Index";
 import PricingCards from "./Pricing Cards/Index";
 import ContactDetails from "./Contact Details/Index";
 import Branding from "./Branding/Index";
@@ -30,9 +31,10 @@ const Index = () => {
       <Header />
       <EmpoweringBuissness />
       <OnlineBuissness />
-      <PortfolioSection />
+      <ArtworkSection />
       <SectionContainer />
       {mobileView ? <WebPackages /> : <PricingCards />}
+      <Portfolio />
       <ContactDetails />
       <Branding />
       <HelpSection />

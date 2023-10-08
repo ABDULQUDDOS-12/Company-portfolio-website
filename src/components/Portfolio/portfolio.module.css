@@ -1,0 +1,40 @@
+.portfolio {
+  width: 80%;
+  margin: 40px auto;
+}
+.portfolio h1 {
+  font-size: 60px;
+  text-align: center;
+}
+.action {
+  width: 100%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.action button {
+  width: 120px;
+  padding: 5px;
+  background: var(--orange);
+  border: 2px solid var(--orange);
+  font-size: 16px;
+  border-radius: 30px;
+  color: white;
+  letter-spacing: 1px;
+  margin: 5px 10px;
+}
+.stage {
+  width: 100%;
+  margin: 40px auto;
+}
+.stage h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.gallery {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}

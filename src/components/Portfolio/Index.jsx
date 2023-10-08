@@ -1,74 +1,33 @@
-import React, { useEffect } from "react";
+import React from "react";
+import styles from "./portfolio.module.css";
 
-import styles from "./Index.module.css";
-import firstPortfolioImage from "../../images/firstPortfolio.png";
-import secondPortfolioImage from "../../images/secondPortfolio.png";
-import thirdPortfolioImage from "../../images/thirdPortfolio.png";
-import forthPortfolioImage from "../../images/forthPortfolio.png";
-import fifthPortfolioImage from "../../images/fifthPortfolio.png";
-import sixthPortfolioImage from "../../images/sixthPortfolio.png";
-import AOS from "aos";
-import "aos/dist/aos.css";
 const Index = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, // Animation duration in milliseconds
-      easing: "ease-in-out", // Animation timing function
-    }); // Initialize AOS
-  }, []);
+  //   function changeSlide(value) {
+  //     data.map(e => e)
+  //   }
   return (
-    <div className={styles.mainContainer} id="portfolio">
-      <div data-aos="zoom-in-up" className={styles.mainHeading}>
-        <h1>
-          Our Top <span>2D/3D</span> Artworks
-        </h1>
-        <p>Having Spent Years In The Industry, Here are our top artworks</p>
+    <section className={styles.portfolio}>
+      <h1>Our Works</h1>
+      <div className={styles.action}>
+        <button>2D Models</button>
+        <button>3D Models</button>
+        <button>Art Scenes</button>
+        <button>Badges</button>
+        <button>Fanart</button>
+        <button>Sketches</button>
+        <button>Overlays</button>
+        <button>Intro/Outro</button>
+        <button>Emotes</button>
+        <button>Logo</button>
+        <button>Extra</button>
       </div>
-      <div className={styles.wrapper}>
-        <div data-aos="zoom-in-up" className={styles.firstImage}>
-          <img
-            src={firstPortfolioImage}
-            alt=""
-            className={styles.hoverZoomImage}
-          />
-        </div>
-        <div data-aos="zoom-in-up" className={styles.secondImage}>
-          <img
-            src={secondPortfolioImage}
-            alt=""
-            className={styles.secondhoverZoomImage}
-          />
-        </div>
-        <div data-aos="zoom-in-up" className={styles.secondImage}>
-          <img
-            src={thirdPortfolioImage}
-            alt=""
-            className={styles.secondhoverZoomImage}
-          />
-        </div>
-        <div data-aos="zoom-in-up" className={styles.firstImage}>
-          <img
-            src={forthPortfolioImage}
-            alt=""
-            className={styles.hoverZoomImage}
-          />
-        </div>
-        <div data-aos="zoom-in-up" className={styles.secondImage}>
-          <img
-            src={fifthPortfolioImage}
-            alt=""
-            className={styles.thirdhoverZoomImage}
-          />
-        </div>
-        <div data-aos="zoom-in-up" className={styles.secondImage}>
-          <img
-            src={sixthPortfolioImage}
-            alt=""
-            className={styles.forthhoverZoomImage}
-          />
+      <div className={styles.stage}>
+        <h2>2D Models</h2>
+        <div className={styles.gallery}>
+          <div className={styles.item}></div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
