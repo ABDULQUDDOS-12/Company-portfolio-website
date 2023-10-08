@@ -1,6 +1,6 @@
 .mainContainer {
   margin-top: 5%;
-  background-color: #141232;
+  background-color: var(--black);
   padding: 5%;
   padding-bottom: 2%;
 }
@@ -45,10 +45,8 @@
   }
 
   .leftContainer div img {
-    width: 80%
+    width: 80%;
   }
-
-  ;
 }
 
 @media (min-width: 360px) and (max-width: 640px) {
