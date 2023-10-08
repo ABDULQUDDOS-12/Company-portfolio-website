@@ -3,10 +3,6 @@
   --black: #1e1e1e;
 }
 
-span {
-  color: var(--orange) !important;
-}
-
 html {
   scroll-behavior: smooth;
 }

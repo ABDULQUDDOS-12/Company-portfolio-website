@@ -14,13 +14,13 @@ const getbill = (req, res) => {
   let MailGenerator = new mailgen({
     theme: "neopolitan",
     product: {
-      name: "squad tech solutions",
-      link: "https://squadtechsolution.com/",
+      name: "STS Designs",
+      link: "https://stsdesigns.co/",
     },
   });
   let response = {
     body: {
-      name: "Abdul Quddos",
+      name: "",
       intro: `quote form reponse from ${name}`,
       table: {
         data: [

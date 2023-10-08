@@ -1,188 +1,185 @@
 .mainContainer {
-    display: flex;
-    height: 1000px;
+  display: flex;
+  height: 1000px;
 }
 
 .upArrowContainer {
-    position: relative;
-    z-index: 99;
-    cursor: pointer;
+  position: relative;
+  z-index: 99;
+  cursor: pointer;
 }
 
 .arrowUp {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    font-size: 45px;
-    color: #E92747;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 45px;
+  color: var(--orange);
 }
 
 .leftHandContainer {
-    margin-left: 3%;
-    width: 37%;
-    margin-top: 10%;
+  margin-left: 3%;
+  width: 37%;
+  margin-top: 10%;
 }
 
 .mainHeading {
-    font-size: x-large;
-    color: #141232;
+  font-size: x-large;
+  color: #141232;
 }
 
 .mainHeading span {
-    color: #E92747;
+  color: var(--orange);
 }
 
 .textContainer {
-    margin-top: 5%;
-    line-height: 2;
+  margin-top: 5%;
+  line-height: 2;
 }
 
 .textContainer p:nth-child(2) {
-    margin-top: 5%;
+  margin-top: 5%;
 }
 
 .buttonContainer {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .buttonContainer button:nth-child(1) {
-    width: 45%;
-    padding: 2%;
-    border-radius: 10px;
-    border: 2px solid #e92747;
-    color: white;
-    font-size: large;
-    margin-bottom: 3%;
-    margin-top: 5%;
-    background: linear-gradient(to right, #e92747 0%, #e92747 0%);
-    background-size: 200% 100%;
-    background-repeat: no-repeat;
-    transition: background-position 0.5s ease-in-out, background-color 1s ease-out;
+  width: 45%;
+  padding: 2%;
+  border-radius: 10px;
+  border: 2px solid var(--orange);
+  color: white;
+  font-size: large;
+  margin-bottom: 3%;
+  margin-top: 5%;
+  background: var(--orange);
+  background-size: 200% 100%;
+  background-repeat: no-repeat;
+  transition: background-position 0.5s ease-in-out, background-color 1s ease-out;
 }
 
 .buttonContainer button:nth-child(1):hover {
-    background-position: -100% 0%;
-    background-color: white;
-    cursor: pointer;
-    color: black;
+  background-position: -100% 0%;
+  background-color: white;
+  cursor: pointer;
+  color: black;
 }
 
 .buttonContainer button:nth-child(2) {
-    width: 45%;
-    padding: 2%;
-    border-radius: 10px;
-    border: 2px solid black;
-    font-size: large;
-    color: black;
-    background: linear-gradient(to right, white 0%, white 0%);
-    background-size: 200% 100%;
-    background-repeat: no-repeat;
-    transition: background-position 0.5s ease-in-out, background-color 1s ease-out;
+  width: 45%;
+  padding: 2%;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-size: large;
+  color: black;
+  background: linear-gradient(to right, white 0%, white 0%);
+  background-size: 200% 100%;
+  background-repeat: no-repeat;
+  transition: background-position 0.5s ease-in-out, background-color 1s ease-out;
 }
 
 .buttonContainer button:nth-child(2):hover {
-    background-position: -100% 0%;
-    background-color: black;
-    cursor: pointer;
-    color: white;
+  background-position: -100% 0%;
+  background-color: black;
+  cursor: pointer;
+  color: white;
 }
 
 .rightHandContainer {
-    width: 55%;
-    margin-top: 10%;
-    background: url("../../images/TEST-BG.png");
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: 83%;
+  width: 55%;
+  margin-top: 10%;
+  background: url("../../images/TEST-BG.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 83%;
 }
 
 .foregroundImage {
-    text-align: center;
+  text-align: center;
 }
 
 .foregroundImage img {
-    width: 60%;
-    height: 100%;
-    text-align: center;
+  width: 60%;
+  height: 100%;
+  text-align: center;
 }
-
 
 /* Responsiveness  */
 @media (min-width: 1008px) and (max-width: 1300px) {
-    .mainContainer {
-        height: 1100px;
-    }
-
+  .mainContainer {
+    height: 1100px;
+  }
 }
 
 @media (min-width: 641px) and (max-width: 1007px) {
-    .mainHeading {
-        font-size: large;
-    }
+  .mainHeading {
+    font-size: large;
+  }
 
-    .textContainer {
-        font-size: small;
-    }
+  .textContainer {
+    font-size: small;
+  }
 
-    .leftHandContainer {
-        width: 50%;
-    }
+  .leftHandContainer {
+    width: 50%;
+  }
 
-    .buttonContainer {
-        flex-direction: row;
-    }
+  .buttonContainer {
+    flex-direction: row;
+  }
 
-    .buttonContainer button:nth-child(1) {
-        margin-bottom: 0%;
-        margin-top: 5%;
-        margin-right: 5%;
-    }
+  .buttonContainer button:nth-child(1) {
+    margin-bottom: 0%;
+    margin-top: 5%;
+    margin-right: 5%;
+  }
 
-    .buttonContainer button {
-        margin-top: 5%;
-    }
+  .buttonContainer button {
+    margin-top: 5%;
+  }
 
-    .mainContainer {
-        height: 820px;
-    }
+  .mainContainer {
+    height: 820px;
+  }
 }
 
 @media (min-width: 360px) and (max-width: 640px) {
-    .mainContainer {
-        margin-top: 20%;
-        height: auto;
-        flex-direction: column;
-    }
+  .mainContainer {
+    margin-top: 20%;
+    height: auto;
+    flex-direction: column;
+  }
 
-    .leftHandContainer {
-        width: 80%;
-        margin: auto;
-    }
+  .leftHandContainer {
+    width: 80%;
+    margin: auto;
+  }
 
-    .mainHeading {
-        font-size: large;
-    }
+  .mainHeading {
+    font-size: large;
+  }
 
-    .textContainer p {
-        font-size: small;
-    }
+  .textContainer p {
+    font-size: small;
+  }
 
-    .buttonContainer {
-        flex-direction: row;
-        margin-top: 10%;
+  .buttonContainer {
+    flex-direction: row;
+    margin-top: 10%;
+  }
 
-    }
+  .buttonContainer button:nth-child(1) {
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-right: 2%;
+  }
 
-    .buttonContainer button:nth-child(1) {
-        margin-bottom: 0%;
-        margin-top: 0%;
-        margin-right: 2%;
-    }
-
-    .rightHandContainer {
-        width: 80%;
-        margin: auto;
-        margin-top: 10%;
-    }
+  .rightHandContainer {
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+  }
 }

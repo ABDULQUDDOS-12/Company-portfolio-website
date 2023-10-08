@@ -6,7 +6,6 @@ import AOS from 'aos'
 import 'aos/dist/aos.css';
 const Index = () => {
     useEffect(() => {
-
         AOS.init({
             duration: 1000, // Animation duration in milliseconds
             easing: 'ease-in-out', // Animation timing function
