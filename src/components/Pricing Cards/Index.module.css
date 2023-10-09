@@ -1,45 +1,54 @@
 .mainContainer {
   margin-top: 5%;
 }
+
 .hide-on-desktop {
   display: none;
 }
+
 .cardsContainer {
   width: 90%;
   margin-top: 3%;
 }
+
 .cardsContainer {
   display: flex;
   width: 90%;
-  margin: auto;
+  margin: 20px auto;
   flex-wrap: wrap;
 }
+
 .firstCard {
-  width: 31%;
+  width: 23%;
   background-color: transparent;
-  height: 700px;
+  height: auto;
   margin: auto;
-  padding-top: 2%;
+  padding: 1% 0;
   border-radius: 20px;
   margin-bottom: 2%;
   box-shadow: 0 0 19px -10px;
 }
+
 .firstImageContainer {
   width: 90%;
   margin: auto;
 }
+
 .firstImage {
   width: 100%;
 }
+
 .textHeadingContainer {
   width: 90%;
   margin: auto;
   color: var(--black);
 }
+
 .firstCard hr {
   width: 90%;
   border-color: var(--black);
 }
+
 .checkPoints {
   width: 90%;
   margin: auto;
@@ -49,41 +58,52 @@
   height: 220px;
   scroll-behavior: inherit;
 }
+
 .checkPoints::-webkit-scrollbar-thumb {
-  background-color: var(--black); /* Change this to your desired color */
+  background-color: var(--black);
+  /* Change this to your desired color */
   border-radius: 25px;
 }
+
 .checkPoints::-webkit-scrollbar-track {
-  background-color: #f1f1f1; /* Change this to your desired color */
+  background-color: #f1f1f1;
+  /* Change this to your desired color */
   border-radius: 25px;
 }
+
 .checkPoints::-webkit-scrollbar {
-  width: 8px; /* You can adjust the width */
+  width: 8px;
+  /* You can adjust the width */
   border-radius: 25px;
 }
+
 .buttonContainer {
   width: 90%;
   margin: auto;
 }
+
 .buttonContainer button {
   margin-top: 10%;
-  padding: 5%;
+  padding: 2%;
   border-radius: 30px;
   border: 2px solid var(--black);
   background-color: var(--black);
   color: white;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease-in;
 }
+
+
 .buttonContainer button:hover {
   color: var(--black);
   background-color: white;
 }
+
 .buttonContainer button:nth-child(2) {
   margin-top: 10%;
-  padding: 5%;
+  padding: 2%;
   border-radius: 30px;
   border: 2px solid var(--orange);
   background-color: transparent;
@@ -91,49 +111,60 @@
   margin-left: 3%;
   transition: all 0.3s ease-in;
 }
+
 .buttonContainer button:nth-child(2):hover {
   color: white;
   background-color: var(--black);
   border: 2px solid var(--black);
 }
+
 .lastlineContainer {
   width: 90%;
   margin: auto;
   margin-top: 3%;
 }
+
 /* Responsiveness */
 @media (min-width: 1008px) and (max-width: 1300px) {
   .buttonContainer button {
     font-size: inherit;
   }
 }
+
 @media (min-width: 641px) and (max-width: 1007px) {
   .firstCard {
     width: 46%;
     height: auto;
   }
+
   .buttonContainer button {
     font-size: small;
   }
 }
+
 @media (min-width: 360px) and (max-width: 640px) {
   .firstCard {
     width: 80%;
     margin-bottom: 5%;
   }
+
   .checkPoints span {
     font-size: small;
   }
+
   .buttonContainer {
     display: flex;
   }
+
   .buttonContainer button {
     font-size: small;
   }
+
   .lastlineContainer p {
     font-size: small;
     margin-bottom: 5%;
   }
+
   .firstCard {
     height: auto;
   }

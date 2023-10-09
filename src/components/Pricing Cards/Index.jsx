@@ -100,7 +100,7 @@ const Index = ({ selectedOption }) => {
       </div>
       <div className={styles.cardsContainer}>
         {filteredCards.map((card, index) => (
-          <div key={index} data-aos="zoom-in-up" className={styles.firstCard}>
+          <div key={index} className={styles.firstCard}>
             <div className={styles.firstImageContainer}>
               <img src={card.image} alt="" className={styles.firstImage} />
             </div>
