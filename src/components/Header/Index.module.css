@@ -16,22 +16,21 @@
 }
 
 .logoContainer {
-    width: 25%;
+    width: 20%;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logoContainer img {
-    width: 45%;
+    width: 30%;
 }
 
 .navbarMainContainer {
     color: white;
     width: 50%;
     display: flex;
-}
-
-.image {
-    width: 80%;
 }
 
 .navbarMainContainer ul {
@@ -103,7 +102,7 @@
     }
 
     .image {
-        width: 85%;
+        width: 65%;
     }
 
     .mainContainer {
