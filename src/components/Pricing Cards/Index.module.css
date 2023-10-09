@@ -30,8 +30,14 @@
 }
 
 .firstImageContainer {
-  width: 90%;
+  width: 60%;
+  text-align: center;
+  padding: 20px 40px;
+  background: var(--black);
+  border-radius: 25px;
+  color: white;
   margin: auto;
+  margin-bottom: 20px;
 }
 
 .firstImage {

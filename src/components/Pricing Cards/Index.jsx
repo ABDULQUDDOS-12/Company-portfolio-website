@@ -8,6 +8,7 @@ import banner4 from "../../images/Banner 4.png";
 import { GiCheckMark } from "react-icons/gi";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 const Index = ({ selectedOption }) => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 640);
   const cardData = [
@@ -102,7 +103,7 @@ const Index = ({ selectedOption }) => {
         {filteredCards.map((card, index) => (
           <div key={index} className={styles.firstCard}>
             <div className={styles.firstImageContainer}>
-              <img src={card.image} alt="" className={styles.firstImage} />
+              <h2>{card.title}</h2>
             </div>
             <div className={styles.textHeadingContainer}>
               <p>{`Plan Includes:`}</p>
