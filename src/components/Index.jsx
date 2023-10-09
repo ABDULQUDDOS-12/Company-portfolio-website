@@ -12,6 +12,7 @@ import Branding from "./Branding/Index";
 import HelpSection from "./Help Section/Index";
 import ContactUs from "./Contact Us/Index";
 import Footer from "./Footer/Index";
+import Members from "./members";
 
 const Index = () => {
   const [mobileView, setMobileView] = useState(window.innerWidth <= 640);
@@ -31,6 +32,7 @@ const Index = () => {
       <Header />
       <EmpoweringBuissness />
       <OnlineBuissness />
+      <Members />
       <ArtworkSection />
       <SectionContainer />
       {mobileView ? <WebPackages /> : <PricingCards />}
