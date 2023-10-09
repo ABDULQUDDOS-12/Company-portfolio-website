@@ -49,7 +49,7 @@
 }
 
 .navbarMainContainer ul li:hover {
-    color: #e92747;
+    color: var(--orange);
 }
 
 .getAQuote {
@@ -74,7 +74,7 @@
 
 .getAQuote button:hover {
     background-position: -100% 0%;
-    background-color: #e92747;
+    background-color: var(--orange);
 }
 
 /* Responsiveness  */
