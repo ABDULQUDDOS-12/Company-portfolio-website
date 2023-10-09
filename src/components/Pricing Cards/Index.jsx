@@ -119,7 +119,7 @@ const Index = ({ selectedOption }) => {
             </div>
             <div className={styles.buttonContainer}>
               <button>
-                <a href="#agent">CHAT NOW</a>
+                <a href="#agents">CHAT NOW</a>
               </button>
               <button>ORDER NOW</button>
             </div>

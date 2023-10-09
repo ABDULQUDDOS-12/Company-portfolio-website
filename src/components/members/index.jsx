@@ -6,7 +6,7 @@ const Members = () => {
   return (
     <section className={styles.members}>
       <h1>Our Top Agents</h1>
-      <div className={styles.agents}>
+      <div className={styles.agents} id="agents">
         <div className="item">
           <img src="" alt="" className={styles.avatar} />
           <h3 className={styles.name}>Agent Name</h3>
