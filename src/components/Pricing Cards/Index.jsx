@@ -120,12 +120,6 @@ const Index = ({ selectedOption }) => {
               <button>CHAT NOW</button>
               <button>ORDER NOW</button>
             </div>
-            <div className={styles.lastlineContainer}>
-              <p>
-                Suitable for potential super-startups and brand revamps for
-                companies
-              </p>
-            </div>
           </div>
         ))}
       </div>
