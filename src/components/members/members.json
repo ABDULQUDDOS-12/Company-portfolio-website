@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "avatar": "",
+      "name": "Ameli Gfx",
+      "socials": {
+        "twitter": "https://x.com/ameliGfx",
+        "discord": ""
+      }
+    },
+    {
+      "id": 2,
+      "avatar": "",
+      "name": "Bella Morri",
+      "socials": {
+        "twitter": "https://twitter.com/bella_morri",
+        "discord": ""
+      }
+    },
+    {
+      "id": 3,
+      "avatar": "",
+      "name": "Serafina Sara",
+      "socials": {
+        "twitter": "https://x.com/serafinasara",
+        "discord": ""
+      }
+    },
+    {
+      "id": 4,
+      "avatar": "",
+      "name": "Caelia",
+      "socials": {
+        "twitter": "https://x.com/Caelia98",
+        "discord": ""
+      }
+    },
+    {
+      "id": 5,
+      "avatar": "",
+      "name": "Astoria Clairr",
+      "socials": {
+        "twitter": "https://twitter.com/AstoriaClair",
+        "discord": ""
+      }
+    },
+    {
+      "id": 6,
+      "avatar": "",
+      "name": "Lagertha Smith",
+      "socials": {
+        "twitter": "https://twitter.com/LagerthaSmith",
+        "discord": ""
+      }
+    }
+  ]
