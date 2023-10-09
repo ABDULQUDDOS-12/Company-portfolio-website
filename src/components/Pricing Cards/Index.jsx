@@ -5,8 +5,6 @@ import banner1 from "../../images/Banner 1.png";
 import banner2 from "../../images/Banner 2.png";
 import banner3 from "../../images/Banner 3.png";
 import banner4 from "../../images/Banner 4.png";
-import banner5 from "../../images/Banner 5.png";
-import banner6 from "../../images/Banner 6.png";
 import { GiCheckMark } from "react-icons/gi";
 import AOS from "aos";
 import "aos/dist/aos.css";
