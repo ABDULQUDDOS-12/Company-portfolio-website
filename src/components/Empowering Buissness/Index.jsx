@@ -53,10 +53,9 @@ const Index = () => {
         </div>
         <div className={styles.importantPoints}>
           <h3>
-            STS Designs: Your gateway to mesmerizing overlays and dynamic
-            animations. Opt for us to experience top-notch quality, speedy
-            delivery, competitive rates, and a team driven by design excellence.
-            We Offer:
+            Your gateway to mesmerizing overlays and dynamic animations. Opt for
+            us to experience top-notch quality, speedy delivery, competitive
+            rates, and a team driven by design excellence. We Offer:
           </h3>
         </div>
         <div className={styles.checkPoints}>
