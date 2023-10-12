@@ -3,6 +3,14 @@
   --black: #1e1e1e;
 }
 
+::-webkit-scrollbar-track {
+  background-color: var(--black);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--black);
+}
+
 html {
   scroll-behavior: smooth;
 }

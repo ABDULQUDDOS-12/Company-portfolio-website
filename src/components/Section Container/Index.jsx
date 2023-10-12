@@ -29,7 +29,9 @@ const Index = () => {
           <h1>30% OFF</h1>
         </div>
         <div className={styles.buttonContainer}>
-          <button>CHAT NOW</button>
+          <button>
+            <a href="#agents">CHAT NOW</a>
+          </button>
           <button>GET STARTED</button>
         </div>
       </div>
