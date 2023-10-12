@@ -2,10 +2,12 @@
   width: 80%;
   margin: 40px auto;
 }
+
 .portfolio h1 {
   font-size: 60px;
   text-align: center;
 }
+
 .action {
   width: 100%;
   margin: 10px auto;
@@ -14,6 +16,7 @@
   flex-wrap: wrap;
   text-align: center;
 }
+
 .action button {
   width: 120px;
   padding: 5px;
@@ -24,17 +27,68 @@
   color: white;
   letter-spacing: 1px;
   margin: 5px 10px;
+  cursor: pointer;
+  outline: none;
 }
+
 .stage {
   width: 100%;
   margin: 40px auto;
 }
+
 .stage h2 {
   font-size: 40px;
   text-align: center;
 }
+
 .gallery {
   width: 100%;
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
+}
+
+.item {
+  width: calc(100% * (1/3));
+  margin: auto;
+  margin: 10px;
+}
+
+.item img {
+  width: 100%;
+}
+
+.pagination {
+  width: 30%;
+  display: flex;
+  margin: auto;
+  font-size: 18px;
+}
+
+.pagination button {
+  width: 100px;
+  padding: 10px;
+  border-radius: 30px;
+  outline: none;
+  border: 2px solid var(--black);
+  background: var(--black);
+  color: white;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.toggle {
+  width: 40px;
+  margin: 0 5px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.toggle:hover {
+  border-color: var(--orange);
+  background: var(--orange);
 }
