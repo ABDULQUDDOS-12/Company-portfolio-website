@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 
 import styles from "./Index.module.css";
-import firstPortfolioImage from "../../images/firstPortfolio.png";
-import secondPortfolioImage from "../../images/secondPortfolio.png";
-import thirdPortfolioImage from "../../images/thirdPortfolio.png";
-import forthPortfolioImage from "../../images/forthPortfolio.png";
-import fifthPortfolioImage from "../../images/fifthPortfolio.png";
-import sixthPortfolioImage from "../../images/sixthPortfolio.png";
+import firstPortfolioImage from "../../images/firstPortfolio.webp";
+import secondPortfolioImage from "../../images/secondPortfolio.webp";
+import thirdPortfolioImage from "../../images/thirdPortfolio.webp";
+import forthPortfolioImage from "../../images/forthPortfolio.webp";
+import fifthPortfolioImage from "../../images/fifthPortfolio.webp";
+import sixthPortfolioImage from "../../images/sixthPortfolio.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const Index = () => {

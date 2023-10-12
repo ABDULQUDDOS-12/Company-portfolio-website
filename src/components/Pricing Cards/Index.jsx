@@ -1,10 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Index.module.css";
 import newstyles from "../Web Packages/Index.module.css";
-import banner1 from "../../images/Banner 1.png";
-import banner2 from "../../images/Banner 2.png";
-import banner3 from "../../images/Banner 3.png";
-import banner4 from "../../images/Banner 4.png";
 import { GiCheckMark } from "react-icons/gi";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -14,7 +10,6 @@ const Index = ({ selectedOption }) => {
   const cardData = [
     {
       id: "Starter Package",
-      image: banner1,
       title: "Starter Package",
       checkpoints: [
         "1x Custom Logo",
@@ -24,7 +19,6 @@ const Index = ({ selectedOption }) => {
     },
     {
       id: "Basic Package",
-      image: banner2,
       title: "Basic Package",
       checkpoints: [
         "1x Custom Logo",
@@ -37,7 +31,6 @@ const Index = ({ selectedOption }) => {
     },
     {
       id: "Mega Package",
-      image: banner3,
       title: "Mega Package",
       checkpoints: [
         "1x Custom Logo",
@@ -52,7 +45,6 @@ const Index = ({ selectedOption }) => {
     },
     {
       id: "Diamond Package",
-      image: banner4,
       title: "Diamond Package",
       checkpoints: [
         "1x Custom Logo",

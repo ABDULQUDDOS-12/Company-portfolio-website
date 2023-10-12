@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import styles from "./Index.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import personImage from "../../images/t1.png";
+import personImage from "../../images/t1.webp";
 import { AiFillLeftCircle } from "react-icons/ai";
 import { AiFillRightCircle } from "react-icons/ai";
 import office from "../../images/office.webp";
-import comma from "../../images/commas.jpeg";
+import comma from "../../images/commas.webp";
 
 const Index = () => {
   const [showFirstImage, setShowFirstImage] = useState(true);

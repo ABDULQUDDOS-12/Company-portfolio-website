@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import styles from "./Index.module.css";
 import image from "../../images/b1.webp";
-import moneyImage from "../../images/b21.png";
-import clientImage from "../../images/b22.png";
-import clockImage from "../../images/b23.png";
-import computerImage from "../../images/b24.png";
+import moneyImage from "../../images/b21.webp";
+import clientImage from "../../images/b22.webp";
+import clockImage from "../../images/b23.webp";
+import computerImage from "../../images/b24.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const Index = () => {

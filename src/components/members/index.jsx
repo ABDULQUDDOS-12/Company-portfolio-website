@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./members.module.css";
 
-import ameliGfx from "../../images/ameliGfx.jpg";
-import bellaMorri from "../../images/bellaMorri.jpg";
-import serafinaSara from "../../images/serafinaSara.png";
-import caelia from "../../images/caelia.jpg";
-import astoriaClairr from "../../images/astoriaClairr.jpg";
-import lagerthaSmith from "../../images/lagerthaSmith.jpg";
+import ameliGfx from "../../images/ameliGfx.webp";
+import bellaMorri from "../../images/bellaMorri.webp";
+import serafinaSara from "../../images/serafinaSara.webp";
+import caelia from "../../images/caelia.webp";
+import astoriaClairr from "../../images/astoriaClairr.webp";
+import lagerthaSmith from "../../images/lagerthaSmith.webp";
 
 import { FaXTwitter, FaDiscord } from "react-icons/fa6";
 

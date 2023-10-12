@@ -6,93 +6,93 @@ import { MdArrowRight, MdArrowLeft } from "react-icons/md";
 // Portfolio Imports Start
 
 // Models
-import model2d_one from "../../images/portfolio/2D Model/2d model-1.jpeg";
-import model2d_two from "../../images/portfolio/2D Model/2d model-2.jpg";
-import model2d_three from "../../images/portfolio/2D Model/2d model-3.jpeg";
-import model2d_four from "../../images/portfolio/2D Model/2d model-4.jpg";
-import model2d_five from "../../images/portfolio/2D Model/2d model-5.jpg";
+import model2d_one from "../../images/portfolio/2D Model/2d model-1.webp";
+import model2d_two from "../../images/portfolio/2D Model/2d model-2.webp";
+import model2d_three from "../../images/portfolio/2D Model/2d model-3.webp";
+import model2d_four from "../../images/portfolio/2D Model/2d model-4.webp";
+import model2d_five from "../../images/portfolio/2D Model/2d model-5.webp";
 
-import model3d_one from "../../images/portfolio/3D Model/3d model-1.jpeg";
-import model3d_two from "../../images/portfolio/3D Model/3d model-2.jpeg";
+import model3d_one from "../../images/portfolio/3D Model/3d model-1.webp";
+import model3d_two from "../../images/portfolio/3D Model/3d model-2.webp";
 
 //ArtScenes
-import artscenes_one from "../../images/portfolio/Art Scenes/art scenes-1.jpeg";
+import artscenes_one from "../../images/portfolio/Art Scenes/art scenes-1.webp";
 import artscenes_two from "../../images/portfolio/Art Scenes/art scenes-2.mp4";
-import artscenes_three from "../../images/portfolio/Art Scenes/art scenes-3.jpeg";
+import artscenes_three from "../../images/portfolio/Art Scenes/art scenes-3.webp";
 import artscenes_four from "../../images/portfolio/Art Scenes/art scenes-4.mp4";
 
 //Badges
-import badges_one from "../../images/portfolio/Badges/badges-1.jpeg";
-import badges_two from "../../images/portfolio/Badges/badges-2.jpg";
-import badges_three from "../../images/portfolio/Badges/badges-3.jpeg";
+import badges_one from "../../images/portfolio/Badges/badges-1.webp";
+import badges_two from "../../images/portfolio/Badges/badges-2.webp";
+import badges_three from "../../images/portfolio/Badges/badges-3.webp";
 
 //Emotes
-import emote_one from "../../images/portfolio/Emotes/emote-1.jpeg";
-import emote_two from "../../images/portfolio/Emotes/emote-2.jpg";
+import emote_one from "../../images/portfolio/Emotes/emote-1.webp";
+import emote_two from "../../images/portfolio/Emotes/emote-2.webp";
 import emote_three from "../../images/portfolio/Emotes/emote-3.mp4";
-import emote_four from "../../images/portfolio/Emotes/emote-4.jpeg";
-import emote_five from "../../images/portfolio/Emotes/emote-5.jpg";
+import emote_four from "../../images/portfolio/Emotes/emote-4.webp";
+import emote_five from "../../images/portfolio/Emotes/emote-5.webp";
 import emote_six from "../../images/portfolio/Emotes/emote-6.mp4";
-import emote_seven from "../../images/portfolio/Emotes/emote-7.jpeg";
-import emote_eight from "../../images/portfolio/Emotes/emote-8.jpeg";
-import emote_nine from "../../images/portfolio/Emotes/emote-9.jpg";
-import emote_ten from "../../images/portfolio/Emotes/emote-10.jpg";
-import emote_eleven from "../../images/portfolio/Emotes/emote-11.jpeg";
-import emote_twelve from "../../images/portfolio/Emotes/emote-12.jpg";
-import emote_thirteen from "../../images/portfolio/Emotes/emote-13.jpeg";
-import emote_fourteen from "../../images/portfolio/Emotes/emote-14.jpg";
-import emote_fifteen from "../../images/portfolio/Emotes/emote-15.jpeg";
-import emote_sixteen from "../../images/portfolio/Emotes/emote-16.jpg";
-import emote_seventeen from "../../images/portfolio/Emotes/emote-17.jpeg";
-import emote_eighteen from "../../images/portfolio/Emotes/emote-18.jpg";
-import emote_nineteen from "../../images/portfolio/Emotes/emote-19.jpg";
-import emote_twenty from "../../images/portfolio/Emotes/emote-20.jpg";
-import emote_twentyOne from "../../images/portfolio/Emotes/emote-21.jpg";
-import emote_twentyTwo from "../../images/portfolio/Emotes/emote-22.jpg";
-import emote_twentyThree from "../../images/portfolio/Emotes/emote-23.jpg";
-import emote_twentyFour from "../../images/portfolio/Emotes/emote-24.jpg";
-import emote_twentyFive from "../../images/portfolio/Emotes/emote-25.jpg";
-import emote_twentySix from "../../images/portfolio/Emotes/emote-26.jpg";
-import emote_twentySeven from "../../images/portfolio/Emotes/emote-27.jpg";
-import emote_twentyEight from "../../images/portfolio/Emotes/emote-28.jpg";
-import emote_twentyNine from "../../images/portfolio/Emotes/emote-29.jpg";
+import emote_seven from "../../images/portfolio/Emotes/emote-7.webp";
+import emote_eight from "../../images/portfolio/Emotes/emote-8.webp";
+import emote_nine from "../../images/portfolio/Emotes/emote-9.webp";
+import emote_ten from "../../images/portfolio/Emotes/emote-10.webp";
+import emote_eleven from "../../images/portfolio/Emotes/emote-11.webp";
+import emote_twelve from "../../images/portfolio/Emotes/emote-12.webp";
+import emote_thirteen from "../../images/portfolio/Emotes/emote-13.webp";
+import emote_fourteen from "../../images/portfolio/Emotes/emote-14.webp";
+import emote_fifteen from "../../images/portfolio/Emotes/emote-15.webp";
+import emote_sixteen from "../../images/portfolio/Emotes/emote-16.webp";
+import emote_seventeen from "../../images/portfolio/Emotes/emote-17.webp";
+import emote_eighteen from "../../images/portfolio/Emotes/emote-18.webp";
+import emote_nineteen from "../../images/portfolio/Emotes/emote-19.webp";
+import emote_twenty from "../../images/portfolio/Emotes/emote-20.webp";
+import emote_twentyOne from "../../images/portfolio/Emotes/emote-21.webp";
+import emote_twentyTwo from "../../images/portfolio/Emotes/emote-22.webp";
+import emote_twentyThree from "../../images/portfolio/Emotes/emote-23.webp";
+import emote_twentyFour from "../../images/portfolio/Emotes/emote-24.webp";
+import emote_twentyFive from "../../images/portfolio/Emotes/emote-25.webp";
+import emote_twentySix from "../../images/portfolio/Emotes/emote-26.webp";
+import emote_twentySeven from "../../images/portfolio/Emotes/emote-27.webp";
+import emote_twentyEight from "../../images/portfolio/Emotes/emote-28.webp";
+import emote_twentyNine from "../../images/portfolio/Emotes/emote-29.webp";
 
 //Fanart
-import fanart_one from "../../images/portfolio/Fan Art/Fansart-1.jpeg";
-import fanart_two from "../../images/portfolio/Fan Art/Fansart-2.jpg";
-import fanart_three from "../../images/portfolio/Fan Art/Fansart-3.jpg";
-import fanart_four from "../../images/portfolio/Fan Art/Fansart-4.jpg";
-import fanart_five from "../../images/portfolio/Fan Art/Fansart-5.jpg";
-import fanart_six from "../../images/portfolio/Fan Art/Fansart-6.jpg";
-import fanart_seven from "../../images/portfolio/Fan Art/Fansart-7.jpg";
-import fanart_eight from "../../images/portfolio/Fan Art/Fansart-8.jpg";
+import fanart_one from "../../images/portfolio/Fan Art/Fansart-1.webp";
+import fanart_two from "../../images/portfolio/Fan Art/Fansart-2.webp";
+import fanart_three from "../../images/portfolio/Fan Art/Fansart-3.webp";
+import fanart_four from "../../images/portfolio/Fan Art/Fansart-4.webp";
+import fanart_five from "../../images/portfolio/Fan Art/Fansart-5.webp";
+import fanart_six from "../../images/portfolio/Fan Art/Fansart-6.webp";
+import fanart_seven from "../../images/portfolio/Fan Art/Fansart-7.webp";
+import fanart_eight from "../../images/portfolio/Fan Art/Fansart-8.webp";
 
 // Intro Outro
 import intro from "../../images/portfolio/Intro Outro/Intro.mp4";
 import outro from "../../images/portfolio/Intro Outro/Outro.mp4";
 
 // Logo
-import logo_one from "../../images/portfolio/Logo/logo-1.jpeg";
-import logo_two from "../../images/portfolio/Logo/logo-2.jpeg";
-import logo_three from "../../images/portfolio/Logo/logo-3.jpeg";
+import logo_one from "../../images/portfolio/Logo/logo-1.webp";
+import logo_two from "../../images/portfolio/Logo/logo-2.webp";
+import logo_three from "../../images/portfolio/Logo/logo-3.webp";
 
 // Overlay
-import overlay_one from "../../images/portfolio/Overlay/0666e559-78b6-4021-a576-be5f3c55167f.jpeg";
+import overlay_one from "../../images/portfolio/Overlay/0666e559-78b6-4021-a576-be5f3c55167f.webp";
 import overlay_two from "../../images/portfolio/Overlay/d24bbfa2-3111-4229-ba8b-eece5e8df1ad.mp4";
 import overlay_three from "../../images/portfolio/Overlay/f405a9bc-8c45-4da3-9b55-8c97d7846611.mp4";
 import overlay_four from "../../images/portfolio/Overlay/facc1ca8-1d0c-4c0e-8f07-d1aaff0a518d.mp4";
 import overlay_five from "../../images/portfolio/Overlay/Overlay.mp4";
 
 // Sketches
-import sketch_one from "../../images/portfolio/Sketches/Sketch-1.jpeg";
-import sketch_two from "../../images/portfolio/Sketches/Sketch-2.jpg";
-import sketch_three from "../../images/portfolio/Sketches/Sketch-3.jpeg";
-import sketch_four from "../../images/portfolio/Sketches/Sketch-4.jpg";
-import sketch_five from "../../images/portfolio/Sketches/Sketch-5.jpg";
+import sketch_one from "../../images/portfolio/Sketches/Sketch-1.webp";
+import sketch_two from "../../images/portfolio/Sketches/Sketch-2.webp";
+import sketch_three from "../../images/portfolio/Sketches/Sketch-3.webp";
+import sketch_four from "../../images/portfolio/Sketches/Sketch-4.webp";
+import sketch_five from "../../images/portfolio/Sketches/Sketch-5.webp";
 
 // Extra
-import extra_one from "../../images/portfolio/Extra/4c722a6c-aaba-4f7e-b99a-0af746ba9a14.jpeg";
-import extra_two from "../../images/portfolio/Extra/9078a25c-a773-4fe4-b0c1-1083c7577579.jpg";
+import extra_one from "../../images/portfolio/Extra/4c722a6c-aaba-4f7e-b99a-0af746ba9a14.webp";
+import extra_two from "../../images/portfolio/Extra/9078a25c-a773-4fe4-b0c1-1083c7577579.webp";
 import extra_three from "../../images/portfolio/Extra/Alerts.mp4";
 // Portfolio Imports End
 

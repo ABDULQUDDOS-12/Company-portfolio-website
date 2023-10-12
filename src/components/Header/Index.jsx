@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Index.module.css";
 import { GiHamburgerMenu } from "react-icons/gi";
-import image from "../../images/logo.png";
+import image from "../../images/logo.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const Index = () => {
