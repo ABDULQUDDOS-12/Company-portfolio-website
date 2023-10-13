@@ -69,7 +69,7 @@ const Members = () => {
   ];
   return (
     <section className={styles.members}>
-      <h1>Our Top Agents</h1>
+      <h1>Our Top Colaborators</h1>
       <div className={styles.agents} id="agents">
         {members.map((item) => (
           <div className={styles.item}>

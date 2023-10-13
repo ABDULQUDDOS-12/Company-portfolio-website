@@ -94,14 +94,7 @@ const Index = () => {
           </div>
           <div className={styles.officeContact}>
             <h3>HEAD OFFICE</h3>
-            <p>6 Jean Drive, Towaco, Montville, New Jersey 07082, USA</p>
-          </div>
-          <div className={styles.officeContact}>
-            <h3>REGIONAL OFFICE</h3>
-            <p>
-              Howard Hughes Center, 6080 Center Drive, 6th Floor, Los Angeles,
-              California, 90045
-            </p>
+            <p>428 Southwest 80th Avenue, North Lauderdale, Florida 33068</p>
           </div>
           <div className={styles.contactDetails}>
             <FaPhoneFlip className={styles.phoneIcone} />
