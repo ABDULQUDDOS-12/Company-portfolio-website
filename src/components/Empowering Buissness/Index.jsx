@@ -14,8 +14,6 @@ const Index = () => {
   const [message, setMessage] = useState("");
 
   const submit = async (e) => {
-    e.preventDefault();
-
     const emailData = {
       name: name,
       email: email,
