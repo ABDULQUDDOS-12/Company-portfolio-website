@@ -8,41 +8,40 @@ const Index = () => {
     duration: 1000,
     easing: "ease-in-out",
   });
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    message: "",
-  });
-  const handleFormSubmit = async (e) => {
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const submit = async (e) => {
     e.preventDefault();
 
+    const emailData = {
+      name: name,
+      email: email,
+      message: message,
+    };
+
     try {
-      const response = await fetch(
-        "http://localhost:5000/api/product/getBill",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            email: formData.email,
-            name: formData.name,
-            phone: formData.phone,
-            message: formData.message,
-          }),
-        }
-      );
+      const response = await fetch("https://stsdesigns.co/api/mail.php", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(emailData),
+      });
+
       if (response.ok) {
-        const data = await response.json();
-        console.log(data.msg);
+        let result = await response.json();
+        console.log(result.message);
       } else {
-        console.error("Error:", response.statusText);
+        console.error("Failed to send message");
       }
     } catch (error) {
       console.error("Error:", error);
     }
   };
+
   return (
     <div className={styles.mainContainer} id="empowering-buisness">
       <div className={styles.leftHandContainer}>
@@ -86,31 +85,21 @@ const Index = () => {
           <h3>Lets Get Started</h3>
           <h1>Avail Upto 30% Discount</h1>
         </div>
-        <form action="" onSubmit={handleFormSubmit}>
+        <form action="" onSubmit={submit}>
           <input
             type="text"
             placeholder="Your Name"
-            value={formData.name}
-            onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-          />{" "}
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            required
+          />
           <br />
           <input
             type="text"
             placeholder="Your Email"
-            value={formData.email}
-            onChange={(e) =>
-              setFormData({ ...formData, email: e.target.value })
-            }
-          />{" "}
-          <br />
-          <input
-            type="text"
-            placeholder="Your Phone"
-            value={formData.phone}
-            onChange={(e) =>
-              setFormData({ ...formData, phone: e.target.value })
-            }
-          />{" "}
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
           <br />
           <textarea
             name=""
@@ -118,10 +107,8 @@ const Index = () => {
             cols="30"
             rows="4"
             placeholder="Enter Your Messages"
-            value={formData.message}
-            onChange={(e) =>
-              setFormData({ ...formData, message: e.target.value })
-            }
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
           ></textarea>
           <button type="submit">LETS GET STARTED</button>
         </form>
