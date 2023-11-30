@@ -90,6 +90,12 @@ import sketch_three from "../../images/portfolio/Sketches/Sketch-3.webp";
 import sketch_four from "../../images/portfolio/Sketches/Sketch-4.webp";
 import sketch_five from "../../images/portfolio/Sketches/Sketch-5.webp";
 
+// Websites
+import website_one from "../../images/portfolio/Websites/Website-1.jpg";
+import website_two from "../../images/portfolio/Websites/Website-2.jpg";
+import website_three from "../../images/portfolio/Websites/Website-3.jpg";
+import website_four from "../../images/portfolio/Websites/Website-4.jpg";
+
 // Extra
 import extra_one from "../../images/portfolio/Extra/4c722a6c-aaba-4f7e-b99a-0af746ba9a14.webp";
 import extra_two from "../../images/portfolio/Extra/9078a25c-a773-4fe4-b0c1-1083c7577579.webp";
@@ -164,6 +170,7 @@ const Index = () => {
       overlay_five,
     ],
     Sketches: [sketch_one, sketch_two, sketch_three, sketch_four, sketch_five],
+    Websites: [website_one, website_two, website_three, website_four],
     Extra: [extra_one, extra_two, extra_three],
   };
 
@@ -198,6 +205,7 @@ const Index = () => {
         </button>
         <button onClick={() => changeCategory("Emotes")}>Emotes</button>
         <button onClick={() => changeCategory("Logo")}>Logo</button>
+        <button onClick={() => changeCategory("Websites")}>Websites</button>
         <button onClick={() => changeCategory("Extra")}>Extra</button>
       </div>
       <div className={styles.stage}>
@@ -216,7 +224,13 @@ const Index = () => {
               </video>
             ) : (
               <div className={styles.item} key={id}>
-                <img src={item} alt="" loading="lazy" />
+                {category == "Websites" ? (
+                  <div className={styles.website}>
+                    <img src={item} alt="" loading="lazy" />
+                  </div>
+                ) : (
+                  <img src={item} alt="" loading="lazy" />
+                )}
               </div>
             )
           )}

@@ -54,6 +54,14 @@
   margin: 10px;
 }
 
+.website {
+  width: 86%;
+  height: 280px;
+  margin: auto;
+  overflow: hidden;
+}
+
+
 .item img {
   width: 100%;
 }
