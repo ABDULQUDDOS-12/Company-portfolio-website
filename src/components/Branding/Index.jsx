@@ -41,14 +41,6 @@ const Index = () => {
         <div className={styles.iconsContainer}>
           <div className={styles.firstIconContainer}>
             <div className={styles.firstImageContainer}>
-              <img src={moneyImage} alt="" className={styles.firstImage} />
-            </div>
-            <div className={styles.iconText}>
-              <p>Money Back Guarantee</p>
-            </div>
-          </div>
-          <div className={styles.firstIconContainer}>
-            <div className={styles.firstImageContainer}>
               <img src={computerImage} alt="" className={styles.firstImage} />
             </div>
             <div className={styles.iconText}>
