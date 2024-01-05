@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Index.module.css";
 import { FaPhoneFlip } from "react-icons/fa6";
+import { FaPaypal } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -42,6 +43,10 @@ const Index = () => {
     } catch (error) {
       console.error("Error:", error);
     }
+  };
+  const myStyle = {
+    color: 'black',
+    marginLeft: '-0.5px'
   };
   return (
     <div id="contact" data-aos="zoom-in-up" className={styles.mainContainer}>
@@ -94,15 +99,20 @@ const Index = () => {
           </div>
           <div className={styles.officeContact}>
             <h3>HEAD OFFICE</h3>
-            <p>428 Southwest 80th Avenue, North Lauderdale, Florida 33068</p>
+            <p>Beckerstr.2 1/4 85049 Ingolstadt, Germany</p>
           </div>
           <div className={styles.contactDetails}>
-            <FaPhoneFlip className={styles.phoneIcone} />
-            <p> (954) 417-7926</p>
+            {/* <FaPhoneFlip className={styles.phoneIcone} /> */}
+            <h3>ACCOUNTS</h3>
+            <p style={myStyle}><b>Bank Details:</b> Muhammad Talal Feroz <br/>
+Bank Name: Sparkasse Köln Bonn<br/>
+SWIFT CODE: COLSDE33XXX<br/>
+IBAN NO: DE54370501981934343664</p>
+<p><FaPaypal/> <a href="https://www.paypal.me/Talalferoz">Paypal</a></p>
           </div>
           <div className={styles.contactDetails}>
-            <HiMail className={styles.mailIcon} />
-            <p>inquiry@stsdesigns.co</p>
+            <FaPhoneFlip className={styles.icon} />
+            <p>+4917683508581</p>
           </div>
         </div>
       </div>

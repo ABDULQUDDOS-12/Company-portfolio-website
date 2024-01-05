@@ -37,7 +37,7 @@ const Index = () => {
       <SectionContainer />
       {mobileView ? <WebPackages /> : <PricingCards />}
       <Portfolio />
-      <ContactDetails />
+      {/* <ContactDetails /> */}
       <Branding />
       <HelpSection />
       <ContactUs />
