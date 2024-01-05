@@ -32,7 +32,7 @@ const Index = () => {
       <Header />
       <EmpoweringBuissness />
       <OnlineBuissness />
-      <Members />
+      {/* <Members /> */}
       <ArtworkSection />
       <SectionContainer />
       {mobileView ? <WebPackages /> : <PricingCards />}
