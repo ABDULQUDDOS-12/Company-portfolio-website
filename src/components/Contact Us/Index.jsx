@@ -104,23 +104,6 @@ const Index = () => {
               Get Free <span>Consultancy</span>
             </h1>
           </div>
-          <div className={styles.officeContact} style={margin}>
-            <h3>HEAD OFFICE</h3>
-            <p>Beckerstr.2 1/4 85049 Ingolstadt, Germany</p>
-          </div>
-          <div className={styles.contactDetails}>
-            {/* <FaPhoneFlip className={styles.phoneIcone} /> */}
-            <h3>ACCOUNTS</h3>
-            <p style={myStyle}><b>Bank Details:</b> Muhammad Talal Feroz <br/>
-Bank Name: Sparkasse Köln Bonn<br/>
-SWIFT CODE: COLSDE33XXX<br/>
-IBAN NO: DE54370501981934343664</p>
-<p style={myStyle}><FaPaypal/> <a href="https://www.paypal.me/Talalferoz">Paypal</a></p>
-          </div>
-          <div className={styles.contactDetails} style={flex}>
-            <FaPhoneFlip className={styles.phoneIcone} />
-            <p>+4917683508581</p>
-          </div>
         </div>
       </div>
     </div>
